@@ -112,3 +112,4 @@ Nếu không hiển thị được hình ảnh sau khi tạo, kiểm tra:
   - `public/images/` - Hình ảnh được tạo bởi AI
   - `public/videos/` - Video được tạo từ audio và hình ảnh
 - `uploads/` - File audio được tạo# viettruyen
+# viettruyen
