@@ -1,0 +1,7 @@
+node_modules
+uploads
+public/images
+public/videos
+dist/public
+.DS_Store
+*.log 

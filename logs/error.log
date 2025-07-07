@@ -1,0 +1,1296 @@
+2025-04-07T05:38:50: TypeError [ERR_INVALID_ARG_TYPE]: The "paths[0]" argument must be of type string. Received undefined
+2025-04-07T05:38:50:     at new NodeError (node:internal/errors:405:5)
+2025-04-07T05:38:50:     at validateString (node:internal/validators:162:11)
+2025-04-07T05:38:50:     at Object.resolve (node:path:1097:7)
+2025-04-07T05:38:50:     at file:///home/kct/viettruyen/dist/index.js:882:18
+2025-04-07T05:38:50:     at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+2025-04-07T05:38:50:     at async ModuleLoader.import (node:internal/modules/esm/loader:336:24)
+2025-04-07T05:38:50:     at async importModuleDynamicallyWrapper (node:internal/vm/module:429:15) {
+2025-04-07T05:38:50:   code: 'ERR_INVALID_ARG_TYPE'
+2025-04-07T05:38:50: }
+2025-04-07T05:48:17: JSON Parse Error: SyntaxError: Unexpected token , in JSON at position 445
+2025-04-07T05:48:17:     at JSON.parse (<anonymous>)
+2025-04-07T05:48:17:     at extractJson (file:///home/kct/viettruyen/dist/index.js:228:23)
+2025-04-07T05:48:17:     at generateScenes (file:///home/kct/viettruyen/dist/index.js:555:10)
+2025-04-07T05:48:17:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-07T05:48:17:     at async file:///home/kct/viettruyen/dist/index.js:763:24
+2025-04-07T05:48:17: Alternative JSON Parse Error: SyntaxError: Unexpected token , in JSON at position 450
+2025-04-07T05:48:17:     at JSON.parse (<anonymous>)
+2025-04-07T05:48:17:     at extractJson (file:///home/kct/viettruyen/dist/index.js:309:23)
+2025-04-07T05:48:17:     at generateScenes (file:///home/kct/viettruyen/dist/index.js:555:10)
+2025-04-07T05:48:17:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-07T05:48:17:     at async file:///home/kct/viettruyen/dist/index.js:763:24
+2025-04-07T05:53:13: JSON Parse Error: SyntaxError: Unexpected token T in JSON at position 1
+2025-04-07T05:53:13:     at JSON.parse (<anonymous>)
+2025-04-07T05:53:13:     at extractJson (file:///home/kct/viettruyen/dist/index.js:215:21)
+2025-04-07T05:53:13:     at generateFullStory (file:///home/kct/viettruyen/dist/index.js:485:10)
+2025-04-07T05:53:13:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-07T05:53:13:     at async file:///home/kct/viettruyen/dist/index.js:750:21
+2025-04-07T05:53:13: Alternative JSON Parse Error: SyntaxError: Unexpected token T in JSON at position 1
+2025-04-07T05:53:13:     at JSON.parse (<anonymous>)
+2025-04-07T05:53:13:     at extractJson (file:///home/kct/viettruyen/dist/index.js:299:23)
+2025-04-07T05:53:13:     at generateFullStory (file:///home/kct/viettruyen/dist/index.js:485:10)
+2025-04-07T05:53:13:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-07T05:53:13:     at async file:///home/kct/viettruyen/dist/index.js:750:21
+2025-04-07T05:53:13: Error generating full story: Error: Không thể phân tích JSON từ phản hồi sau nhiều lần thử
+2025-04-07T05:53:13:     at extractJson (file:///home/kct/viettruyen/dist/index.js:350:11)
+2025-04-07T05:53:13:     at generateFullStory (file:///home/kct/viettruyen/dist/index.js:485:10)
+2025-04-07T05:53:13:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-07T05:53:13:     at async file:///home/kct/viettruyen/dist/index.js:750:21
+2025-04-07T05:53:41: JSON Parse Error: SyntaxError: Unexpected token T in JSON at position 1
+2025-04-07T05:53:41:     at JSON.parse (<anonymous>)
+2025-04-07T05:53:41:     at extractJson (file:///home/kct/viettruyen/dist/index.js:215:21)
+2025-04-07T05:53:41:     at generateFullStory (file:///home/kct/viettruyen/dist/index.js:485:10)
+2025-04-07T05:53:41:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-07T05:53:41:     at async file:///home/kct/viettruyen/dist/index.js:750:21
+2025-04-07T05:53:41: Alternative JSON Parse Error: SyntaxError: Unexpected token T in JSON at position 1
+2025-04-07T05:53:41:     at JSON.parse (<anonymous>)
+2025-04-07T05:53:41:     at extractJson (file:///home/kct/viettruyen/dist/index.js:299:23)
+2025-04-07T05:53:41:     at generateFullStory (file:///home/kct/viettruyen/dist/index.js:485:10)
+2025-04-07T05:53:41:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-07T05:53:41:     at async file:///home/kct/viettruyen/dist/index.js:750:21
+2025-04-07T05:53:41: Error generating full story: Error: Không thể phân tích JSON từ phản hồi sau nhiều lần thử
+2025-04-07T05:53:41:     at extractJson (file:///home/kct/viettruyen/dist/index.js:350:11)
+2025-04-07T05:53:41:     at generateFullStory (file:///home/kct/viettruyen/dist/index.js:485:10)
+2025-04-07T05:53:41:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-07T05:53:41:     at async file:///home/kct/viettruyen/dist/index.js:750:21
+2025-04-07T05:54:35: JSON Parse Error: SyntaxError: Unexpected token T in JSON at position 1
+2025-04-07T05:54:35:     at JSON.parse (<anonymous>)
+2025-04-07T05:54:35:     at extractJson (file:///home/kct/viettruyen/dist/index.js:215:21)
+2025-04-07T05:54:35:     at generateFullStory (file:///home/kct/viettruyen/dist/index.js:485:10)
+2025-04-07T05:54:35:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-07T05:54:35:     at async file:///home/kct/viettruyen/dist/index.js:750:21
+2025-04-07T05:54:35: Alternative JSON Parse Error: SyntaxError: Unexpected token T in JSON at position 1
+2025-04-07T05:54:35:     at JSON.parse (<anonymous>)
+2025-04-07T05:54:35:     at extractJson (file:///home/kct/viettruyen/dist/index.js:299:23)
+2025-04-07T05:54:35:     at generateFullStory (file:///home/kct/viettruyen/dist/index.js:485:10)
+2025-04-07T05:54:35:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-07T05:54:35:     at async file:///home/kct/viettruyen/dist/index.js:750:21
+2025-04-07T05:54:35: Error generating full story: Error: Không thể phân tích JSON từ phản hồi sau nhiều lần thử
+2025-04-07T05:54:35:     at extractJson (file:///home/kct/viettruyen/dist/index.js:350:11)
+2025-04-07T05:54:35:     at generateFullStory (file:///home/kct/viettruyen/dist/index.js:485:10)
+2025-04-07T05:54:35:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-07T05:54:35:     at async file:///home/kct/viettruyen/dist/index.js:750:21
+2025-04-07T16:59:57: Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'multer' imported from /home/kct/viettruyen/dist/index.js
+2025-04-07T16:59:57:     at new NodeError (node:internal/errors:405:5)
+2025-04-07T16:59:57:     at packageResolve (node:internal/modules/esm/resolve:916:9)
+2025-04-07T16:59:57:     at moduleResolve (node:internal/modules/esm/resolve:973:20)
+2025-04-07T16:59:57:     at defaultResolve (node:internal/modules/esm/resolve:1193:11)
+2025-04-07T16:59:57:     at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:403:12)
+2025-04-07T16:59:57:     at ModuleLoader.resolve (node:internal/modules/esm/loader:372:25)
+2025-04-07T16:59:57:     at ModuleLoader.getModuleJob (node:internal/modules/esm/loader:249:38)
+2025-04-07T16:59:57:     at ModuleWrap.<anonymous> (node:internal/modules/esm/module_job:76:39)
+2025-04-07T16:59:57:     at link (node:internal/modules/esm/module_job:75:36) {
+2025-04-07T16:59:57:   code: 'ERR_MODULE_NOT_FOUND'
+2025-04-07T16:59:57: }
+2025-04-11T07:48:33: JSON Parse Error: SyntaxError: Unexpected token 
+2025-04-11T07:48:33:  in JSON at position 560
+2025-04-11T07:48:33:     at JSON.parse (<anonymous>)
+2025-04-11T07:48:33:     at extractJson (file:///home/kct/viettruyen/dist/index.js:299:23)
+2025-04-11T07:48:33:     at generateStoryContent (file:///home/kct/viettruyen/dist/index.js:587:10)
+2025-04-11T07:48:33:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-11T07:48:33:     at async generateFullStory (file:///home/kct/viettruyen/dist/index.js:517:26)
+2025-04-11T07:48:33:     at async file:///home/kct/viettruyen/dist/index.js:2066:21
+2025-04-11T07:48:40: Kết quả không phải là chuỗi: {
+2025-04-11T07:48:40:   content: '{\n' +
+2025-04-11T07:48:40:     `  "content": "Xin chào các bạn, quý vị thính giả, chào mừng đến với Đất Ma online - nơi kể chuyện tâm linh sau 3 giờ sáng. Tôi là người dẫn chuyện đêm nay, và hôm nay, chúng ta sẽ cùng bước vào thế giới của 'Giấc Mơ Rắn' - một câu chuyện kinh dị đầy ám ảnh. Hãy chuẩn bị tinh thần để khám phá những bí ẩn đang chờ đợi! [SEPARATOR] Những giấc mơ đáng sợ như của Minh nhắc nhở chúng ta về sức mạnh vô hình của tâm trí và nỗi sợ hãi. Chúng là lời cảnh tỉnh để chúng ta đối mặt và vượt qua những điều ám ảnh trong cuộc sống. Cảm ơn quý vị đã lắng nghe, hẹn gặp lại trong các tập sau. Đừng quên theo dõi kênh và chia sẻ nếu thích nội dung!"\n` +
+2025-04-11T07:48:40:     '}'
+2025-04-11T07:48:40: }
+2025-04-11T07:49:16: Lỗi khi sử dụng API vkct.synology.me: AxiosError: socket hang up
+2025-04-11T07:49:16:     at AxiosError.from (file:///home/kct/viettruyen/node_modules/axios/lib/core/AxiosError.js:92:14)
+2025-04-11T07:49:16:     at RedirectableRequest.handleRequestError (file:///home/kct/viettruyen/node_modules/axios/lib/adapters/http.js:620:25)
+2025-04-11T07:49:16:     at RedirectableRequest.emit (node:events:529:35)
+2025-04-11T07:49:16:     at eventHandlers.<computed> (/home/kct/viettruyen/node_modules/follow-redirects/index.js:49:24)
+2025-04-11T07:49:16:     at ClientRequest.emit (node:events:517:28)
+2025-04-11T07:49:16:     at Socket.socketOnEnd (node:_http_client:525:9)
+2025-04-11T07:49:16:     at Socket.emit (node:events:529:35)
+2025-04-11T07:49:16:     at endReadableNT (node:internal/streams/readable:1400:12)
+2025-04-11T07:49:16:     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-04-11T07:49:16:     at Axios.request (file:///home/kct/viettruyen/node_modules/axios/lib/core/Axios.js:45:41)
+2025-04-11T07:49:16:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-11T07:49:16:     at async generateAudio (file:///home/kct/viettruyen/dist/index.js:928:24)
+2025-04-11T07:49:16:     at async Timeout._onTimeout (file:///home/kct/viettruyen/dist/index.js:2848:29) {
+2025-04-11T07:49:16:   code: 'ECONNRESET',
+2025-04-11T07:49:16:   config: {
+2025-04-11T07:49:16:     transitional: {
+2025-04-11T07:49:16:       silentJSONParsing: true,
+2025-04-11T07:49:16:       forcedJSONParsing: true,
+2025-04-11T07:49:16:       clarifyTimeoutError: false
+2025-04-11T07:49:16:     },
+2025-04-11T07:49:16:     adapter: [ 'xhr', 'http', 'fetch' ],
+2025-04-11T07:49:16:     transformRequest: [ [Function: transformRequest] ],
+2025-04-11T07:49:16:     transformResponse: [ [Function: transformResponse] ],
+2025-04-11T07:49:16:     timeout: 60000,
+2025-04-11T07:49:16:     xsrfCookieName: 'XSRF-TOKEN',
+2025-04-11T07:49:16:     xsrfHeaderName: 'X-XSRF-TOKEN',
+2025-04-11T07:49:16:     maxContentLength: -1,
+2025-04-11T07:49:16:     maxBodyLength: -1,
+2025-04-11T07:49:16:     env: { FormData: [Function [FormData]], Blob: [class Blob] },
+2025-04-11T07:49:16:     validateStatus: [Function: validateStatus],
+2025-04-11T07:49:16:     headers: Object [AxiosHeaders] {
+2025-04-11T07:49:16:       Accept: 'application/json, text/plain, */*',
+2025-04-11T07:49:16:       'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8',
+2025-04-11T07:49:16:       'User-Agent': 'axios/1.8.4',
+2025-04-11T07:49:16:       'Content-Length': '7871',
+2025-04-11T07:49:16:       'Accept-Encoding': 'gzip, compress, deflate, br'
+2025-04-11T07:49:16:     },
+2025-04-11T07:49:16:     responseType: 'arraybuffer',
+2025-04-11T07:49:16:     method: 'post',
+2025-04-11T07:49:16:     url: 'http://vkct.synology.me:5014/tts',
+2025-04-11T07:49:16:     data: 'text=Trong+c%C3%A1i+kh%C3%B4ng+kh%C3%AD+%C3%A2m+u+c%E1%BB%A7a+bu%E1%BB%95i+t%E1%BB%91i%2C+Minh%2C+ch%C3%A0ng+sinh+vi%C3%AAn+ng%C3%A0nh+kh%E1%BA%A3o+c%E1%BB%95%2C+n%E1%BA%B1m+m%C6%A1+th%E1%BA%A5y+m%C3%ACnh+%C4%91ang+l%E1%BA%A1c+trong+m%E1%BB%99t+khu+r%E1%BB%ABng+r%E1%BA%ADm+r%E1%BA%A1p.+Nh%E1%BB%AFng+b%C3%B3ng+c%C3%A2y+tr%E1%BA%A7m+m%E1%BA%B7c%2C+cao+v%C3%BAt+nh%C6%B0+nh%E1%BB%AFng+b%C3%B3ng+ma%2C+che+khu%E1%BA%A5t+c%E1%BA%A3+%C3%A1nh+tr%C4%83ng+l%E1%BB%9D+m%E1%BB%9D.+Trong+gi%E1%BA%A5c+m%C6%A1+%E1%BA%A5y%2C+Minh+b%E1%BB%8B+bao+quanh+b%E1%BB%9Fi+nh%E1%BB%AFng+con+r%E1%BA%AFn+l%E1%BB%9Bn%2C+v%E1%BB%9Bi+%C3%A1nh+m%E1%BA%AFt+s%C3%A1ng+r%E1%BB%B1c%2C+ch%C3%BAng+di+chuy%E1%BB%83n+ch%E1%BA%ADm+r%C3%A3i+nh%C6%B0ng+%C4%91%E1%BA%A7y+%C4%91e+d%E1%BB%8Da.+Minh+c%E1%BB%91+g%E1%BA%AFng+ch%E1%BA%A1y+tho%C3%A1t+nh%C6%B0ng+c%E1%BA%A3m+gi%C3%A1c+nh%C6%B0+%C4%91%C3%B4i+ch%C3%A2n+n%E1%BA%B7ng+tr%C4%A9u+kh%C3%B4ng+th%E1%BB%83+c%E1%BB%AD+%C4%91%E1%BB%99ng+%C4%91%C6%B0%E1%BB%A3c.+M%E1%BB%93+h%C3%B4i+l%E1%BA%A1nh+to%C3%A1t+ra%2C+Minh+gi%E1%BA%ADt+m%C3%ACnh+t%E1%BB%89nh+gi%E1%BA%A5c%2C+tim+%C4%91%E1%BA%ADp+lo%E1%BA%A1n+x%E1%BA%A1+nh%C6%B0+v%E1%BB%ABa+tho%C3%A1t+kh%E1%BB%8Fi+m%E1%BB%99t+c%C6%A1n+%C3%A1c+m%E1%BB%99ng.+Ng%C3%A0y+h%C3%B4m+sau%2C+Minh+quy%E1%BA%BFt+%C4%91%E1%BB%8Bnh+t%C3%ACm+%C4%91%E1%BA%BFn+b%C3%A0+T%C6%B0%2C+m%E1%BB%99t+ng%C6%B0%E1%BB%9Di+b%C3%A1n+h%C3%A0ng+rong+s%E1%BB%91ng+m%E1%BB%99t+m%C3%ACnh+trong+ng%C3%B4i+nh%C3%A0+c%E1%BB%95+%E1%BB%9F+cu%E1%BB%91i+l%C3%A0ng.+B%C3%A0+T%C6%B0+n%E1%BB%95i+ti%E1%BA%BFng+l%C3%A0+ng%C6%B0%E1%BB%9Di+am+hi%E1%BB%83u+chuy%E1%BB%87n+t%C3%A2m+linh.+Minh+ngh%C4%A9+r%E1%BA%B1ng+b%C3%A0+c%C3%B3+th%E1%BB%83+gi%C3%BAp+c%E1%BA%ADu+gi%E1%BA%A3i+%C4%91%C3%A1p+%C3%BD+ngh%C4%A9a+c%E1%BB%A7a+nh%E1%BB%AFng+gi%E1%BA%A5c+m%C6%A1+k%E1%BB%B3+l%E1%BA%A1+n%C3%A0y.+Khi+Minh+t%E1%BB%9Bi+n%C6%A1i%2C+b%C3%A0+T%C6%B0+%C4%91ang+ng%E1%BB%93i+b%C3%AAn+b%E1%BA%BFp+l%E1%BB%ADa+nh%E1%BB%8F%2C+%C3%A1nh+l%E1%BB%ADa+le+l%C3%B3i+ph%E1%BA%A3n+chi%E1%BA%BFu+l%C3%AAn+g%C6%B0%C6%A1ng+m%E1%BA%B7t+%C4%91%C3%A3+h%E1%BA%B1n+s%C3%A2u+d%E1%BA%A5u+v%E1%BA%BFt+th%E1%BB%9Di+gian.+-+D%E1%BA%A1%2C+ch%C3%A0o+b%C3%A0+T%C6%B0%2C+con+l%C3%A0+Minh+%C4%91%C3%A2y.+M%E1%BA%A5y+b%E1%BB%AFa+nay+con+hay+m%C6%A1+th%E1%BA%A5y+r%E1%BA%AFn%2C+th%E1%BA%A5y+l%E1%BA%A1+l%E1%BA%AFm.+B%C3%A0+c%C3%B3+bi%E1%BA%BFt+g%C3%AC+kh%C3%B4ng%2C+b%C3%A0%3F+-+Minh+h%E1%BB%8Fi%2C+gi%E1%BB%8Dng+%C4%91i%E1%BB%87u+c%C3%B3+ph%E1%BA%A7n+lo+l%E1%BA%AFng.+B%C3%A0+T%C6%B0+nh%C3%ACn+Minh+m%E1%BB%99t+l%C3%BAc+l%C3%A2u%2C+r%E1%BB%93i+kh%E1%BA%BD+g%E1%BA%ADt+%C4%91%E1%BA%A7u.+B%C3%A0+ch%E1%BA%ADm+r%C3%A3i+k%E1%BB%83+l%E1%BA%A1i+m%E1%BB%99t+truy%E1%BB%81n+thuy%E1%BA%BFt+c%E1%BB%95+x%C6%B0a+v%E1%BB%81+ng%C3%B4i+l%C3%A0ng+b%E1%BB%8B+nguy%E1%BB%81n+r%E1%BB%A7a+b%E1%BB%9Fi+m%E1%BB%99t+con+r%E1%BA%AFn+th%E1%BA%A7n.+Truy%E1%BB%81n+thuy%E1%BA%BFt+n%C3%B3i+r%E1%BA%B1ng%2C+h%C3%A0ng+tr%C4%83m+n%C4%83m+tr%C6%B0%E1%BB%9Bc%2C+m%E1%BB%99t+ng%C3%B4i+l%C3%A0ng+%C4%91%C3%A3+b%E1%BB%8B+r%E1%BA%AFn+th%E1%BA%A7n+nguy%E1%BB%81n+r%E1%BB%A7a+v%C3%A0+nh%E1%BB%AFng+ng%C6%B0%E1%BB%9Di+trong+l%C3%A0ng+d%E1%BA%A7n+bi%E1%BA%BFn+th%C3%A0nh+r%E1%BA%AFn.+Ch%E1%BB%89+c%C3%B3+m%E1%BB%99t+ng%C6%B0%E1%BB%9Di+s%E1%BB%91ng+s%C3%B3t%2C+nh%C6%B0ng+kh%C3%B4ng+ai+bi%E1%BA%BFt+ng%C6%B0%E1%BB%9Di+%E1%BA%A5y+l%C3%A0+ai.+-+Con+ph%E1%BA%A3i+c%E1%BA%A9n+th%E1%BA%ADn%2C+Minh+%C3%A0.+Ng%C3%B4i+nh%C3%A0+n%C3%A0y+c%C3%B3+nhi%E1%BB%81u+b%C3%AD+m%E1%BA%ADt+l%E1%BA%AFm%2C+m%C3%A0+kh%C3%B4ng+ph%E1%BA%A3i+ai+c%C5%A9ng+bi%E1%BA%BFt+%C4%91%C3%A2u+-+b%C3%A0+T%C6%B0+n%C3%B3i%2C+gi%E1%BB%8Dng+b%C3%A0+nh%C6%B0+th%E1%BB%83+ch%E1%BA%A5t+ch%E1%BB%A9a+%C4%91i%E1%BB%81u+g%C3%AC+%C4%91%C3%B3+s%C3%A2u+k%C3%ADn.+Nghe+b%C3%A0+T%C6%B0+n%C3%B3i%2C+Minh+c%E1%BA%A3m+th%E1%BA%A5y+t%C3%B2+m%C3%B2.+C%E1%BA%ADu+quy%E1%BA%BFt+%C4%91%E1%BB%8Bnh+kh%C3%A1m+ph%C3%A1+ng%C3%B4i+nh%C3%A0+c%E1%BB%95+c%E1%BB%A7a+b%C3%A0+T%C6%B0.+B%C3%AAn+trong+l%C3%A0+m%E1%BB%99t+kh%C3%B4ng+gian+t%E1%BB%91i+t%C4%83m%2C+nhi%E1%BB%81u+ng%C3%B3c+ng%C3%A1ch.+Minh+ph%C3%A1t+hi%E1%BB%87n+ra+nh%E1%BB%AFng+b%E1%BB%A9c+tranh+c%C5%A9+k%E1%BB%B9%2C+tr%C3%AAn+%C4%91%C3%B3+v%E1%BA%BD+nh%E1%BB%AFng+con+r%E1%BA%AFn+%C4%91ang+qu%E1%BA%A5n+quanh+nh%E1%BB%AFng+b%C3%B3ng+d%C3%A1ng+con+ng%C6%B0%E1%BB%9Di.+Minh+c%E1%BA%A3m+th%E1%BA%A5y+r%C3%B9ng+m%C3%ACnh+khi+nh%C3%ACn+v%C3%A0o+m%E1%BA%AFt+c%E1%BB%A7a+nh%E1%BB%AFng+b%E1%BB%A9c+tranh%2C+nh%C6%B0+th%E1%BB%83+ch%C3%BAng+%C4%91ang+s%E1%BB%91ng+%C4%91%E1%BB%99ng+v%C3%A0+theo+d%C3%B5i+c%E1%BA%ADu.+M%E1%BB%99t+%C4%91%C3%AAm+n%E1%BB%8D%2C+khi+Minh+%C4%91ang+xem+x%C3%A9t+m%E1%BB%99t+c%C4%83n+ph%C3%B2ng+b%C3%AD+m%E1%BA%ADt%2C+c%E1%BA%ADu+b%E1%BA%A5t+ng%E1%BB%9D+b%E1%BB%8B+bao+v%C3%A2y+b%E1%BB%9Fi+nh%E1%BB%AFng+linh+h%E1%BB%93n+r%E1%BA%AFn.+Ch%C3%BAng+tr%C6%B0%E1%BB%9Dn+b%C3%B2+quanh+Minh%2C+ph%C3%A1t+ra+nh%E1%BB%AFng+%C3%A2m+thanh+gh%C3%AA+r%E1%BB%A3n.+Minh+h%C3%ADt+m%E1%BB%99t+h%C6%A1i+th%E1%BA%ADt+s%C3%A2u%2C+nh%E1%BB%9B+l%E1%BA%A1i+nh%E1%BB%AFng+l%E1%BB%9Di+b%C3%A0+T%C6%B0%2C+c%E1%BA%ADu+c%E1%BB%91+g%E1%BA%AFng+gi%E1%BB%AF+b%C3%ACnh+t%C4%A9nh+%C4%91%E1%BB%83+t%C3%ACm+c%C3%A1ch+gi%E1%BA%A3i+l%E1%BB%9Di+nguy%E1%BB%81n.+C%E1%BA%ADu+nh%E1%BB%9B+t%E1%BB%9Bi+c%C3%A2u+chuy%E1%BB%87n+v%E1%BB%81+ng%C6%B0%E1%BB%9Di+s%E1%BB%91ng+s%C3%B3t+v%C3%A0+nh%E1%BA%ADn+ra+r%E1%BA%B1ng+ch%E1%BB%89+khi+t%C3%ACm+ra+ng%C6%B0%E1%BB%9Di+%E1%BA%A5y%2C+c%E1%BA%ADu+m%E1%BB%9Bi+c%C3%B3+th%E1%BB%83+gi%E1%BA%A3i+ph%C3%B3ng+c%C3%A1c+linh+h%E1%BB%93n.+Sau+nhi%E1%BB%81u+ng%C3%A0y+t%C3%ACm+hi%E1%BB%83u%2C+Minh+d%E1%BA%A7n+kh%C3%A1m+ph%C3%A1+ra+b%C3%AD+m%E1%BA%ADt+v%E1%BB%81+qu%C3%A1+kh%E1%BB%A9+c%E1%BB%A7a+b%C3%A0+T%C6%B0.+H%C3%B3a+ra%2C+b%C3%A0+ch%C3%ADnh+l%C3%A0+ng%C6%B0%E1%BB%9Di+s%E1%BB%91ng+s%C3%B3t+t%E1%BB%AB+ng%C3%B4i+l%C3%A0ng+b%E1%BB%8B+nguy%E1%BB%81n+r%E1%BB%A7a.+B%C3%A0+%C4%91%C3%A3+gi%E1%BA%A5u+gi%E1%BA%BFm+th%C3%A2n+ph%E1%BA%ADn+%C4%91%E1%BB%83+b%E1%BA%A3o+v%E1%BB%87+m%C3%ACnh+kh%E1%BB%8Fi+nh%E1%BB%AFng+linh+h%E1%BB%93n+r%E1%BA%AFn.+Minh+%C4%91%E1%BB%91i+m%E1%BA%B7t+v%E1%BB%9Bi+b%C3%A0+T%C6%B0+v%C3%A0+c%C3%B9ng+nhau+t%C3%ACm+ra+c%C3%A1ch+gi%E1%BA%A3i+tho%C3%A1t+cho+ng%C3%B4i+l%C3%A0ng.+V%E1%BB%9Bi+s%E1%BB%B1+gi%C3%BAp+%C4%91%E1%BB%A1+c%E1%BB%A7a+Minh%2C+b%C3%A0+T%C6%B0+cu%E1%BB%91i+c%C3%B9ng+c%C5%A9ng+c%C3%B3+th%E1%BB%83+gi%E1%BA%A3i+ph%C3%B3ng+c%C3%A1c+linh+h%E1%BB%93n+v%C3%A0+ch%E1%BA%A5m+d%E1%BB%A9t+l%E1%BB%9Di+nguy%E1%BB%81n+h%C3%A0ng+tr%C4%83m+n%C4%83m.+Ng%C3%B4i+l%C3%A0ng+tr%E1%BB%9F+l%E1%BA%A1i+b%C3%ACnh+y%C3%AAn%2C+b%C3%A0+T%C6%B0+tr%E1%BB%9F+th%C3%A0nh+m%E1%BB%99t+ng%C6%B0%E1%BB%9Di+k%E1%BB%83+chuy%E1%BB%87n%2C+truy%E1%BB%81n+l%E1%BA%A1i+nh%E1%BB%AFng+kinh+nghi%E1%BB%87m+c%E1%BB%A7a+m%C3%ACnh+cho+th%E1%BA%BF+h%E1%BB%87+sau.+Minh%2C+sau+khi+tr%E1%BA%A3i+qua+h%C3%A0nh+tr%C3%ACnh+%C4%91%E1%BA%A7y+gian+nan%2C+nh%E1%BA%ADn+ra+r%E1%BA%B1ng+%C4%91%C3%B4i+khi%2C+%C4%91%E1%BB%83+gi%E1%BA%A3i+quy%E1%BA%BFt+m%E1%BB%99t+v%E1%BA%A5n+%C4%91%E1%BB%81%2C+ta+c%E1%BA%A7n+ph%E1%BA%A3i+%C4%91%E1%BB%91i+di%E1%BB%87n+v%E1%BB%9Bi+n%E1%BB%97i+s%E1%BB%A3+v%C3%A0+kh%C3%A1m+ph%C3%A1+nh%E1%BB%AFng+b%C3%AD+m%E1%BA%ADt+b%C3%AAn+trong+ch%C3%ADnh+m%C3%ACnh.+%C4%90%C3%B3+l%C3%A0+c%C3%A1ch+duy+nh%E1%BA%A5t+%C4%91%E1%BB%83+t%C3%ACm+th%E1%BA%A5y+s%E1%BB%B1+b%C3%ACnh+y%C3%AAn.+Gi%E1%BA%A5c+m%C6%A1+r%E1%BA%AFn+kh%C3%B4ng+c%C3%B2n+%C3%A1m+%E1%BA%A3nh+Minh+n%E1%BB%AFa.+C%E1%BA%ADu+h%E1%BB%8Dc+%C4%91%C6%B0%E1%BB%A3c+r%E1%BA%B1ng%2C+nh%E1%BB%AFng+gi%E1%BA%A5c+m%C6%A1+%C4%91%C3%B4i+khi+l%C3%A0+l%E1%BB%9Di+nh%E1%BA%AFc+nh%E1%BB%9F+t%E1%BB%AB+t%C3%A2m+linh%2C+ch%E1%BB%89+%C4%91%C6%B0%E1%BB%9Dng+cho+ta+t%C3%ACm+v%E1%BB%81+ngu%E1%BB%93n+c%E1%BB%99i+v%C3%A0+hi%E1%BB%83u+r%C3%B5+h%C6%A1n+v%E1%BB%81+b%E1%BA%A3n+th%C3%A2n.+Minh+b%C6%B0%E1%BB%9Bc+ra+kh%E1%BB%8Fi+cu%E1%BB%99c+phi%C3%AAu+l%C6%B0u+n%C3%A0y+v%E1%BB%9Bi+m%E1%BB%99t+c%C3%A1i+nh%C3%ACn+m%E1%BB%9Bi+v%E1%BB%81+cu%E1%BB%99c+s%E1%BB%91ng%2C+v%E1%BB%81+l%C3%B2ng+d%C5%A9ng+c%E1%BA%A3m+v%C3%A0+s%E1%BB%B1+ki%C3%AAn+tr%C3%AC+kh%C3%B4ng+ng%E1%BB%ABng+ngh%E1%BB%89.&voice_name=vi-VN-NamMinhNeural',
+2025-04-11T07:49:16:     allowAbsoluteUrls: true
+2025-04-11T07:49:16:   },
+2025-04-11T07:49:16:   request: <ref *1> Writable {
+2025-04-11T07:49:16:     _writableState: WritableState {
+2025-04-11T07:49:16:       objectMode: false,
+2025-04-11T07:49:16:       highWaterMark: 16384,
+2025-04-11T07:49:16:       finalCalled: false,
+2025-04-11T07:49:16:       needDrain: false,
+2025-04-11T07:49:16:       ending: false,
+2025-04-11T07:49:16:       ended: false,
+2025-04-11T07:49:16:       finished: false,
+2025-04-11T07:49:16:       destroyed: false,
+2025-04-11T07:49:16:       decodeStrings: true,
+2025-04-11T07:49:16:       defaultEncoding: 'utf8',
+2025-04-11T07:49:16:       length: 0,
+2025-04-11T07:49:16:       writing: false,
+2025-04-11T07:49:16:       corked: 0,
+2025-04-11T07:49:16:       sync: true,
+2025-04-11T07:49:16:       bufferProcessing: false,
+2025-04-11T07:49:16:       onwrite: [Function: bound onwrite],
+2025-04-11T07:49:16:       writecb: null,
+2025-04-11T07:49:16:       writelen: 0,
+2025-04-11T07:49:16:       afterWriteTickInfo: null,
+2025-04-11T07:49:16:       buffered: [],
+2025-04-11T07:49:16:       bufferedIndex: 0,
+2025-04-11T07:49:16:       allBuffers: true,
+2025-04-11T07:49:16:       allNoop: true,
+2025-04-11T07:49:16:       pendingcb: 0,
+2025-04-11T07:49:16:       constructed: true,
+2025-04-11T07:49:16:       prefinished: false,
+2025-04-11T07:49:16:       errorEmitted: false,
+2025-04-11T07:49:16:       emitClose: true,
+2025-04-11T07:49:16:       autoDestroy: true,
+2025-04-11T07:49:16:       errored: null,
+2025-04-11T07:49:16:       closed: false,
+2025-04-11T07:49:16:       closeEmitted: false,
+2025-04-11T07:49:16:       [Symbol(kOnFinished)]: []
+2025-04-11T07:49:16:     },
+2025-04-11T07:49:16:     _events: [Object: null prototype] {
+2025-04-11T07:49:16:       response: [Function: handleResponse],
+2025-04-11T07:49:16:       error: [Function: handleRequestError],
+2025-04-11T07:49:16:       socket: [Array]
+2025-04-11T07:49:16:     },
+2025-04-11T07:49:16:     _eventsCount: 3,
+2025-04-11T07:49:16:     _maxListeners: undefined,
+2025-04-11T07:49:16:     _options: {
+2025-04-11T07:49:16:       maxRedirects: 21,
+2025-04-11T07:49:16:       maxBodyLength: Infinity,
+2025-04-11T07:49:16:       protocol: 'http:',
+2025-04-11T07:49:16:       path: '/tts',
+2025-04-11T07:49:16:       method: 'POST',
+2025-04-11T07:49:16:       headers: [Object: null prototype],
+2025-04-11T07:49:16:       agents: [Object],
+2025-04-11T07:49:16:       auth: undefined,
+2025-04-11T07:49:16:       family: undefined,
+2025-04-11T07:49:16:       beforeRedirect: [Function: dispatchBeforeRedirect],
+2025-04-11T07:49:16:       beforeRedirects: [Object],
+2025-04-11T07:49:16:       hostname: 'vkct.synology.me',
+2025-04-11T07:49:16:       port: '5014',
+2025-04-11T07:49:16:       agent: undefined,
+2025-04-11T07:49:16:       nativeProtocols: [Object],
+2025-04-11T07:49:16:       pathname: '/tts'
+2025-04-11T07:49:16:     },
+2025-04-11T07:49:16:     _ended: true,
+2025-04-11T07:49:16:     _ending: true,
+2025-04-11T07:49:16:     _redirectCount: 0,
+2025-04-11T07:49:16:     _redirects: [],
+2025-04-11T07:49:16:     _requestBodyLength: 7871,
+2025-04-11T07:49:16:     _requestBodyBuffers: [ [Object] ],
+2025-04-11T07:49:16:     _onNativeResponse: [Function (anonymous)],
+2025-04-11T07:49:16:     _currentRequest: ClientRequest {
+2025-04-11T07:49:16:       _events: [Object: null prototype],
+2025-04-11T07:49:16:       _eventsCount: 7,
+2025-04-11T07:49:16:       _maxListeners: undefined,
+2025-04-11T07:49:16:       outputData: [],
+2025-04-11T07:49:16:       outputSize: 0,
+2025-04-11T07:49:16:       writable: true,
+2025-04-11T07:49:16:       destroyed: false,
+2025-04-11T07:49:16:       _last: true,
+2025-04-11T07:49:16:       chunkedEncoding: false,
+2025-04-11T07:49:16:       shouldKeepAlive: false,
+2025-04-11T07:49:16:       maxRequestsOnConnectionReached: false,
+2025-04-11T07:49:16:       _defaultKeepAlive: true,
+2025-04-11T07:49:16:       useChunkedEncodingByDefault: true,
+2025-04-11T07:49:16:       sendDate: false,
+2025-04-11T07:49:16:       _removedConnection: false,
+2025-04-11T07:49:16:       _removedContLen: false,
+2025-04-11T07:49:16:       _removedTE: false,
+2025-04-11T07:49:16:       strictContentLength: false,
+2025-04-11T07:49:16:       _contentLength: '7871',
+2025-04-11T07:49:16:       _hasBody: true,
+2025-04-11T07:49:16:       _trailer: '',
+2025-04-11T07:49:16:       finished: true,
+2025-04-11T07:49:16:       _headerSent: true,
+2025-04-11T07:49:16:       _closed: false,
+2025-04-11T07:49:16:       socket: [Socket],
+2025-04-11T07:49:16:       _header: 'POST /tts HTTP/1.1\r\n' +
+2025-04-11T07:49:16:         'Accept: application/json, text/plain, */*\r\n' +
+2025-04-11T07:49:16:         'Content-Type: application/x-www-form-urlencoded;charset=utf-8\r\n' +
+2025-04-11T07:49:16:         'User-Agent: axios/1.8.4\r\n' +
+2025-04-11T07:49:16:         'Content-Length: 7871\r\n' +
+2025-04-11T07:49:16:         'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+2025-04-11T07:49:16:         'Host: vkct.synology.me:5014\r\n' +
+2025-04-11T07:49:16:         'Connection: close\r\n' +
+2025-04-11T07:49:16:         '\r\n',
+2025-04-11T07:49:16:       _keepAliveTimeout: 0,
+2025-04-11T07:49:16:       _onPendingData: [Function: nop],
+2025-04-11T07:49:16:       agent: [Agent],
+2025-04-11T07:49:16:       socketPath: undefined,
+2025-04-11T07:49:16:       method: 'POST',
+2025-04-11T07:49:16:       maxHeaderSize: undefined,
+2025-04-11T07:49:16:       insecureHTTPParser: undefined,
+2025-04-11T07:49:16:       joinDuplicateHeaders: undefined,
+2025-04-11T07:49:16:       path: '/tts',
+2025-04-11T07:49:16:       _ended: false,
+2025-04-11T07:49:16:       res: null,
+2025-04-11T07:49:16:       aborted: false,
+2025-04-11T07:49:16:       timeoutCb: null,
+2025-04-11T07:49:16:       upgradeOrConnect: false,
+2025-04-11T07:49:16:       parser: null,
+2025-04-11T07:49:16:       maxHeadersCount: null,
+2025-04-11T07:49:16:       reusedSocket: false,
+2025-04-11T07:49:16:       host: 'vkct.synology.me',
+2025-04-11T07:49:16:       protocol: 'http:',
+2025-04-11T07:49:16:       _redirectable: [Circular *1],
+2025-04-11T07:49:16:       [Symbol(kCapture)]: false,
+2025-04-11T07:49:16:       [Symbol(kBytesWritten)]: 0,
+2025-04-11T07:49:16:       [Symbol(kNeedDrain)]: false,
+2025-04-11T07:49:16:       [Symbol(corked)]: 0,
+2025-04-11T07:49:16:       [Symbol(kOutHeaders)]: [Object: null prototype],
+2025-04-11T07:49:16:       [Symbol(errored)]: null,
+2025-04-11T07:49:16:       [Symbol(kHighWaterMark)]: 16384,
+2025-04-11T07:49:16:       [Symbol(kRejectNonStandardBodyWrites)]: false,
+2025-04-11T07:49:16:       [Symbol(kUniqueHeaders)]: null
+2025-04-11T07:49:16:     },
+2025-04-11T07:49:16:     _currentUrl: 'http://vkct.synology.me:5014/tts',
+2025-04-11T07:49:16:     _timeout: null,
+2025-04-11T07:49:16:     [Symbol(kCapture)]: false
+2025-04-11T07:49:16:   },
+2025-04-11T07:49:16:   cause: Error: socket hang up
+2025-04-11T07:49:16:       at connResetException (node:internal/errors:720:14)
+2025-04-11T07:49:16:       at Socket.socketOnEnd (node:_http_client:525:23)
+2025-04-11T07:49:16:       at Socket.emit (node:events:529:35)
+2025-04-11T07:49:16:       at endReadableNT (node:internal/streams/readable:1400:12)
+2025-04-11T07:49:16:       at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+2025-04-11T07:49:16:     code: 'ECONNRESET'
+2025-04-11T07:49:16:   }
+2025-04-11T07:49:16: }
+2025-04-11T07:49:17: Lỗi khi sử dụng API aitoolseo.com: AxiosError: Request failed with status code 500
+2025-04-11T07:49:17:     at settle (file:///home/kct/viettruyen/node_modules/axios/lib/core/settle.js:19:12)
+2025-04-11T07:49:17:     at IncomingMessage.handleStreamEnd (file:///home/kct/viettruyen/node_modules/axios/lib/adapters/http.js:599:11)
+2025-04-11T07:49:17:     at IncomingMessage.emit (node:events:529:35)
+2025-04-11T07:49:17:     at endReadableNT (node:internal/streams/readable:1400:12)
+2025-04-11T07:49:17:     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-04-11T07:49:17:     at Axios.request (file:///home/kct/viettruyen/node_modules/axios/lib/core/Axios.js:45:41)
+2025-04-11T07:49:17:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-11T07:49:17:     at async generateAudio (file:///home/kct/viettruyen/dist/index.js:975:26)
+2025-04-11T07:49:17:     at async Timeout._onTimeout (file:///home/kct/viettruyen/dist/index.js:2848:29) {
+2025-04-11T07:49:17:   code: 'ERR_BAD_RESPONSE',
+2025-04-11T07:49:17:   config: {
+2025-04-11T07:49:17:     transitional: {
+2025-04-11T07:49:17:       silentJSONParsing: true,
+2025-04-11T07:49:17:       forcedJSONParsing: true,
+2025-04-11T07:49:17:       clarifyTimeoutError: false
+2025-04-11T07:49:17:     },
+2025-04-11T07:49:17:     adapter: [ 'xhr', 'http', 'fetch' ],
+2025-04-11T07:49:17:     transformRequest: [ [Function: transformRequest] ],
+2025-04-11T07:49:17:     transformResponse: [ [Function: transformResponse] ],
+2025-04-11T07:49:17:     timeout: 30000,
+2025-04-11T07:49:17:     xsrfCookieName: 'XSRF-TOKEN',
+2025-04-11T07:49:17:     xsrfHeaderName: 'X-XSRF-TOKEN',
+2025-04-11T07:49:17:     maxContentLength: -1,
+2025-04-11T07:49:17:     maxBodyLength: -1,
+2025-04-11T07:49:17:     env: { FormData: [Function [FormData]], Blob: [class Blob] },
+2025-04-11T07:49:17:     validateStatus: [Function: validateStatus],
+2025-04-11T07:49:17:     headers: Object [AxiosHeaders] {
+2025-04-11T07:49:17:       Accept: '*/*',
+2025-04-11T07:49:17:       'Content-Type': 'application/json',
+2025-04-11T07:49:17:       'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:137.0) Gecko/20100101 Firefox/137.0',
+2025-04-11T07:49:17:       'Accept-Language': 'vi,en-US;q=0.7,en;q=0.3',
+2025-04-11T07:49:17:       'Accept-Encoding': 'gzip, deflate, br, zstd',
+2025-04-11T07:49:17:       Referer: 'https://aitoolseo.com/voice-ads',
+2025-04-11T07:49:17:       Authorization: 'Bearer trinhnd19@gmail.com',
+2025-04-11T07:49:17:       Origin: 'https://aitoolseo.com',
+2025-04-11T07:49:17:       Connection: 'keep-alive',
+2025-04-11T07:49:17:       'Sec-Fetch-Dest': 'empty',
+2025-04-11T07:49:17:       'Sec-Fetch-Mode': 'cors',
+2025-04-11T07:49:17:       'Sec-Fetch-Site': 'same-origin',
+2025-04-11T07:49:17:       Priority: 'u=0',
+2025-04-11T07:49:17:       'Content-Length': '4386'
+2025-04-11T07:49:17:     },
+2025-04-11T07:49:17:     responseType: 'arraybuffer',
+2025-04-11T07:49:17:     method: 'post',
+2025-04-11T07:49:17:     url: 'https://aitoolseo.com/api/voice',
+2025-04-11T07:49:17:     data: '{"text":"Trong cái không khí âm u của buổi tối, Minh, chàng sinh viên ngành khảo cổ, nằm mơ thấy mình đang lạc trong một khu rừng rậm rạp. Những bóng cây trầm mặc, cao vút như những bóng ma, che khuất cả ánh trăng lờ mờ. Trong giấc mơ ấy, Minh bị bao quanh bởi những con rắn lớn, với ánh mắt sáng rực, chúng di chuyển chậm rãi nhưng đầy đe dọa. Minh cố gắng chạy thoát nhưng cảm giác như đôi chân nặng trĩu không thể cử động được. Mồ hôi lạnh toát ra, Minh giật mình tỉnh giấc, tim đập loạn xạ như vừa thoát khỏi một cơn ác mộng. Ngày hôm sau, Minh quyết định tìm đến bà Tư, một người bán hàng rong sống một mình trong ngôi nhà cổ ở cuối làng. Bà Tư nổi tiếng là người am hiểu chuyện tâm linh. Minh nghĩ rằng bà có thể giúp cậu giải đáp ý nghĩa của những giấc mơ kỳ lạ này. Khi Minh tới nơi, bà Tư đang ngồi bên bếp lửa nhỏ, ánh lửa le lói phản chiếu lên gương mặt đã hằn sâu dấu vết thời gian. - Dạ, chào bà Tư, con là Minh đây. Mấy bữa nay con hay mơ thấy rắn, thấy lạ lắm. Bà có biết gì không, bà? - Minh hỏi, giọng điệu có phần lo lắng. Bà Tư nhìn Minh một lúc lâu, rồi khẽ gật đầu. Bà chậm rãi kể lại một truyền thuyết cổ xưa về ngôi làng bị nguyền rủa bởi một con rắn thần. Truyền thuyết nói rằng, hàng trăm năm trước, một ngôi làng đã bị rắn thần nguyền rủa và những người trong làng dần biến thành rắn. Chỉ có một người sống sót, nhưng không ai biết người ấy là ai. - Con phải cẩn thận, Minh à. Ngôi nhà này có nhiều bí mật lắm, mà không phải ai cũng biết đâu - bà Tư nói, giọng bà như thể chất chứa điều gì đó sâu kín. Nghe bà Tư nói, Minh cảm thấy tò mò. Cậu quyết định khám phá ngôi nhà cổ của bà Tư. Bên trong là một không gian tối tăm, nhiều ngóc ngách. Minh phát hiện ra những bức tranh cũ kỹ, trên đó vẽ những con rắn đang quấn quanh những bóng dáng con người. Minh cảm thấy rùng mình khi nhìn vào mắt của những bức tranh, như thể chúng đang sống động và theo dõi cậu. Một đêm nọ, khi Minh đang xem xét một căn phòng bí mật, cậu bất ngờ bị bao vây bởi những linh hồn rắn. Chúng trườn bò quanh Minh, phát ra những âm thanh ghê rợn. Minh hít một hơi thật sâu, nhớ lại những lời bà Tư, cậu cố gắng giữ bình tĩnh để tìm cách giải lời nguyền. Cậu nhớ tới câu chuyện về người sống sót và nhận ra rằng chỉ khi tìm ra người ấy, cậu mới có thể giải phóng các linh hồn. Sau nhiều ngày tìm hiểu, Minh dần khám phá ra bí mật về quá khứ của bà Tư. Hóa ra, bà chính là người sống sót từ ngôi làng bị nguyền rủa. Bà đã giấu giếm thân phận để bảo vệ mình khỏi những linh hồn rắn. Minh đối mặt với bà Tư và cùng nhau tìm ra cách giải thoát cho ngôi làng. Với sự giúp đỡ của Minh, bà Tư cuối cùng cũng có thể giải phóng các linh hồn và chấm dứt lời nguyền hàng trăm năm. Ngôi làng trở lại bình yên, bà Tư trở thành một người kể chuyện, truyền lại những kinh nghiệm của mình cho thế hệ sau. Minh, sau khi trải qua hành trình đầy gian nan, nhận ra rằng đôi khi, để giải quyết một vấn đề, ta cần phải đối diện với nỗi sợ và khám phá những bí mật bên trong chính mình. Đó là cách duy nhất để tìm thấy sự bình yên. Giấc mơ rắn không còn ám ảnh Minh nữa. Cậu học được rằng, những giấc mơ đôi khi là lời nhắc nhở từ tâm linh, chỉ đường cho ta tìm về nguồn cội và hiểu rõ hơn về bản thân. Minh bước ra khỏi cuộc phiêu lưu này với một cái nhìn mới về cuộc sống, về lòng dũng cảm và sự kiên trì không ngừng nghỉ.","voice_name":"vi-VN-NamMinhNeural","speed":1,"userId":2}',
+2025-04-11T07:49:17:     allowAbsoluteUrls: true
+2025-04-11T07:49:17:   },
+2025-04-11T07:49:17:   request: <ref *1> ClientRequest {
+2025-04-11T07:49:17:     _events: [Object: null prototype] {
+2025-04-11T07:49:17:       abort: [Function (anonymous)],
+2025-04-11T07:49:17:       aborted: [Function (anonymous)],
+2025-04-11T07:49:17:       connect: [Function (anonymous)],
+2025-04-11T07:49:17:       error: [Function (anonymous)],
+2025-04-11T07:49:17:       socket: [Function (anonymous)],
+2025-04-11T07:49:17:       timeout: [Function (anonymous)],
+2025-04-11T07:49:17:       finish: [Function: requestOnFinish]
+2025-04-11T07:49:17:     },
+2025-04-11T07:49:17:     _eventsCount: 7,
+2025-04-11T07:49:17:     _maxListeners: undefined,
+2025-04-11T07:49:17:     outputData: [],
+2025-04-11T07:49:17:     outputSize: 0,
+2025-04-11T07:49:17:     writable: true,
+2025-04-11T07:49:17:     destroyed: true,
+2025-04-11T07:49:17:     _last: true,
+2025-04-11T07:49:17:     chunkedEncoding: false,
+2025-04-11T07:49:17:     shouldKeepAlive: true,
+2025-04-11T07:49:17:     maxRequestsOnConnectionReached: false,
+2025-04-11T07:49:17:     _defaultKeepAlive: true,
+2025-04-11T07:49:17:     useChunkedEncodingByDefault: true,
+2025-04-11T07:49:17:     sendDate: false,
+2025-04-11T07:49:17:     _removedConnection: false,
+2025-04-11T07:49:17:     _removedContLen: false,
+2025-04-11T07:49:17:     _removedTE: false,
+2025-04-11T07:49:17:     strictContentLength: false,
+2025-04-11T07:49:17:     _contentLength: '4386',
+2025-04-11T07:49:17:     _hasBody: true,
+2025-04-11T07:49:17:     _trailer: '',
+2025-04-11T07:49:17:     finished: true,
+2025-04-11T07:49:17:     _headerSent: true,
+2025-04-11T07:49:17:     _closed: true,
+2025-04-11T07:49:17:     socket: TLSSocket {
+2025-04-11T07:49:17:       _tlsOptions: [Object],
+2025-04-11T07:49:17:       _secureEstablished: true,
+2025-04-11T07:49:17:       _securePending: false,
+2025-04-11T07:49:17:       _newSessionPending: false,
+2025-04-11T07:49:17:       _controlReleased: true,
+2025-04-11T07:49:17:       secureConnecting: false,
+2025-04-11T07:49:17:       _SNICallback: null,
+2025-04-11T07:49:17:       servername: 'aitoolseo.com',
+2025-04-11T07:49:17:       alpnProtocol: false,
+2025-04-11T07:49:17:       authorized: true,
+2025-04-11T07:49:17:       authorizationError: null,
+2025-04-11T07:49:17:       encrypted: true,
+2025-04-11T07:49:17:       _events: [Object: null prototype],
+2025-04-11T07:49:17:       _eventsCount: 8,
+2025-04-11T07:49:17:       connecting: false,
+2025-04-11T07:49:17:       _hadError: false,
+2025-04-11T07:49:17:       _parent: null,
+2025-04-11T07:49:17:       _host: 'aitoolseo.com',
+2025-04-11T07:49:17:       _closeAfterHandlingError: false,
+2025-04-11T07:49:17:       _readableState: [ReadableState],
+2025-04-11T07:49:17:       _maxListeners: undefined,
+2025-04-11T07:49:17:       _writableState: [WritableState],
+2025-04-11T07:49:17:       allowHalfOpen: false,
+2025-04-11T07:49:17:       _sockname: null,
+2025-04-11T07:49:17:       _pendingData: null,
+2025-04-11T07:49:17:       _pendingEncoding: '',
+2025-04-11T07:49:17:       server: undefined,
+2025-04-11T07:49:17:       _server: null,
+2025-04-11T07:49:17:       ssl: null,
+2025-04-11T07:49:17:       _requestCert: true,
+2025-04-11T07:49:17:       _rejectUnauthorized: true,
+2025-04-11T07:49:17:       parser: null,
+2025-04-11T07:49:17:       _httpMessage: [Circular *1],
+2025-04-11T07:49:17:       timeout: 30000,
+2025-04-11T07:49:17:       [Symbol(alpncallback)]: null,
+2025-04-11T07:49:17:       [Symbol(res)]: [TLSWrap],
+2025-04-11T07:49:17:       [Symbol(verified)]: true,
+2025-04-11T07:49:17:       [Symbol(pendingSession)]: null,
+2025-04-11T07:49:17:       [Symbol(async_id_symbol)]: 3054,
+2025-04-11T07:49:17:       [Symbol(kHandle)]: null,
+2025-04-11T07:49:17:       [Symbol(lastWriteQueueSize)]: 0,
+2025-04-11T07:49:17:       [Symbol(timeout)]: Timeout {
+2025-04-11T07:49:17:         _idleTimeout: -1,
+2025-04-11T07:49:17:         _idlePrev: null,
+2025-04-11T07:49:17:         _idleNext: null,
+2025-04-11T07:49:17:         _idleStart: 264242,
+2025-04-11T07:49:17:         _onTimeout: null,
+2025-04-11T07:49:17:         _timerArgs: undefined,
+2025-04-11T07:49:17:         _repeat: null,
+2025-04-11T07:49:17:         _destroyed: true,
+2025-04-11T07:49:17:         [Symbol(refed)]: false,
+2025-04-11T07:49:17:         [Symbol(kHasPrimitive)]: false,
+2025-04-11T07:49:17:         [Symbol(asyncId)]: 3062,
+2025-04-11T07:49:17:         [Symbol(triggerId)]: 3057
+2025-04-11T07:49:17:       },
+2025-04-11T07:49:17:       [Symbol(kBuffer)]: null,
+2025-04-11T07:49:17:       [Symbol(kBufferCb)]: null,
+2025-04-11T07:49:17:       [Symbol(kBufferGen)]: null,
+2025-04-11T07:49:17:       [Symbol(kCapture)]: false,
+2025-04-11T07:49:17:       [Symbol(kSetNoDelay)]: false,
+2025-04-11T07:49:17:       [Symbol(kSetKeepAlive)]: true,
+2025-04-11T07:49:17:       [Symbol(kSetKeepAliveInitialDelay)]: 60,
+2025-04-11T07:49:17:       [Symbol(kBytesRead)]: 686,
+2025-04-11T07:49:17:       [Symbol(kBytesWritten)]: 4913,
+2025-04-11T07:49:17:       [Symbol(connect-options)]: [Object]
+2025-04-11T07:49:17:     },
+2025-04-11T07:49:17:     _header: 'POST /api/voice HTTP/1.1\r\n' +
+2025-04-11T07:49:17:       'Accept: */*\r\n' +
+2025-04-11T07:49:17:       'Content-Type: application/json\r\n' +
+2025-04-11T07:49:17:       'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:137.0) Gecko/20100101 Firefox/137.0\r\n' +
+2025-04-11T07:49:17:       'Accept-Language: vi,en-US;q=0.7,en;q=0.3\r\n' +
+2025-04-11T07:49:17:       'Accept-Encoding: gzip, deflate, br, zstd\r\n' +
+2025-04-11T07:49:17:       'Referer: https://aitoolseo.com/voice-ads\r\n' +
+2025-04-11T07:49:17:       'Authorization: Bearer trinhnd19@gmail.com\r\n' +
+2025-04-11T07:49:17:       'Origin: https://aitoolseo.com\r\n' +
+2025-04-11T07:49:17:       'Connection: keep-alive\r\n' +
+2025-04-11T07:49:17:       'Sec-Fetch-Dest: empty\r\n' +
+2025-04-11T07:49:17:       'Sec-Fetch-Mode: cors\r\n' +
+2025-04-11T07:49:17:       'Sec-Fetch-Site: same-origin\r\n' +
+2025-04-11T07:49:17:       'Priority: u=0\r\n' +
+2025-04-11T07:49:17:       'Content-Length: 4386\r\n' +
+2025-04-11T07:49:17:       'Host: aitoolseo.com\r\n' +
+2025-04-11T07:49:17:       '\r\n',
+2025-04-11T07:49:17:     _keepAliveTimeout: 0,
+2025-04-11T07:49:17:     _onPendingData: [Function: nop],
+2025-04-11T07:49:17:     agent: Agent {
+2025-04-11T07:49:17:       _events: [Object: null prototype],
+2025-04-11T07:49:17:       _eventsCount: 2,
+2025-04-11T07:49:17:       _maxListeners: undefined,
+2025-04-11T07:49:17:       defaultPort: 443,
+2025-04-11T07:49:17:       protocol: 'https:',
+2025-04-11T07:49:17:       options: [Object: null prototype],
+2025-04-11T07:49:17:       requests: [Object: null prototype] {},
+2025-04-11T07:49:17:       sockets: [Object: null prototype],
+2025-04-11T07:49:17:       freeSockets: [Object: null prototype] {},
+2025-04-11T07:49:17:       keepAliveMsecs: 1000,
+2025-04-11T07:49:17:       keepAlive: false,
+2025-04-11T07:49:17:       maxSockets: Infinity,
+2025-04-11T07:49:17:       maxFreeSockets: 256,
+2025-04-11T07:49:17:       scheduling: 'lifo',
+2025-04-11T07:49:17:       maxTotalSockets: Infinity,
+2025-04-11T07:49:17:       totalSocketCount: 1,
+2025-04-11T07:49:17:       maxCachedSessions: 100,
+2025-04-11T07:49:17:       _sessionCache: [Object],
+2025-04-11T07:49:17:       [Symbol(kCapture)]: false
+2025-04-11T07:49:17:     },
+2025-04-11T07:49:17:     socketPath: undefined,
+2025-04-11T07:49:17:     method: 'POST',
+2025-04-11T07:49:17:     maxHeaderSize: undefined,
+2025-04-11T07:49:17:     insecureHTTPParser: undefined,
+2025-04-11T07:49:17:     joinDuplicateHeaders: undefined,
+2025-04-11T07:49:17:     path: '/api/voice',
+2025-04-11T07:49:17:     _ended: true,
+2025-04-11T07:49:17:     res: IncomingMessage {
+2025-04-11T07:49:17:       _readableState: [ReadableState],
+2025-04-11T07:49:17:       _events: [Object: null prototype],
+2025-04-11T07:49:17:       _eventsCount: 4,
+2025-04-11T07:49:17:       _maxListeners: undefined,
+2025-04-11T07:49:17:       socket: null,
+2025-04-11T07:49:17:       httpVersionMajor: 1,
+2025-04-11T07:49:17:       httpVersionMinor: 1,
+2025-04-11T07:49:17:       httpVersion: '1.1',
+2025-04-11T07:49:17:       complete: true,
+2025-04-11T07:49:17:       rawHeaders: [Array],
+2025-04-11T07:49:17:       rawTrailers: [],
+2025-04-11T07:49:17:       joinDuplicateHeaders: undefined,
+2025-04-11T07:49:17:       aborted: false,
+2025-04-11T07:49:17:       upgrade: false,
+2025-04-11T07:49:17:       url: '',
+2025-04-11T07:49:17:       method: null,
+2025-04-11T07:49:17:       statusCode: 500,
+2025-04-11T07:49:17:       statusMessage: 'Internal Server Error',
+2025-04-11T07:49:17:       client: [TLSSocket],
+2025-04-11T07:49:17:       _consuming: false,
+2025-04-11T07:49:17:       _dumped: false,
+2025-04-11T07:49:17:       req: [Circular *1],
+2025-04-11T07:49:17:       responseUrl: 'https://aitoolseo.com/api/voice',
+2025-04-11T07:49:17:       redirects: [],
+2025-04-11T07:49:17:       [Symbol(kCapture)]: false,
+2025-04-11T07:49:17:       [Symbol(kHeaders)]: [Object],
+2025-04-11T07:49:17:       [Symbol(kHeadersCount)]: 20,
+2025-04-11T07:49:17:       [Symbol(kTrailers)]: null,
+2025-04-11T07:49:17:       [Symbol(kTrailersCount)]: 0
+2025-04-11T07:49:17:     },
+2025-04-11T07:49:17:     aborted: false,
+2025-04-11T07:49:17:     timeoutCb: null,
+2025-04-11T07:49:17:     upgradeOrConnect: false,
+2025-04-11T07:49:17:     parser: null,
+2025-04-11T07:49:17:     maxHeadersCount: null,
+2025-04-11T07:49:17:     reusedSocket: false,
+2025-04-11T07:49:17:     host: 'aitoolseo.com',
+2025-04-11T07:49:17:     protocol: 'https:',
+2025-04-11T07:49:17:     _redirectable: Writable {
+2025-04-11T07:49:17:       _writableState: [WritableState],
+2025-04-11T07:49:17:       _events: [Object: null prototype],
+2025-04-11T07:49:17:       _eventsCount: 3,
+2025-04-11T07:49:17:       _maxListeners: undefined,
+2025-04-11T07:49:17:       _options: [Object],
+2025-04-11T07:49:17:       _ended: true,
+2025-04-11T07:49:17:       _ending: true,
+2025-04-11T07:49:17:       _redirectCount: 0,
+2025-04-11T07:49:17:       _redirects: [],
+2025-04-11T07:49:17:       _requestBodyLength: 4386,
+2025-04-11T07:49:17:       _requestBodyBuffers: [],
+2025-04-11T07:49:17:       _onNativeResponse: [Function (anonymous)],
+2025-04-11T07:49:17:       _currentRequest: [Circular *1],
+2025-04-11T07:49:17:       _currentUrl: 'https://aitoolseo.com/api/voice',
+2025-04-11T07:49:17:       _timeout: null,
+2025-04-11T07:49:17:       [Symbol(kCapture)]: false
+2025-04-11T07:49:17:     },
+2025-04-11T07:49:17:     [Symbol(kCapture)]: false,
+2025-04-11T07:49:17:     [Symbol(kBytesWritten)]: 0,
+2025-04-11T07:49:17:     [Symbol(kNeedDrain)]: false,
+2025-04-11T07:49:17:     [Symbol(corked)]: 0,
+2025-04-11T07:49:17:     [Symbol(kOutHeaders)]: [Object: null prototype] {
+2025-04-11T07:49:17:       accept: [Array],
+2025-04-11T07:49:17:       'content-type': [Array],
+2025-04-11T07:49:17:       'user-agent': [Array],
+2025-04-11T07:49:17:       'accept-language': [Array],
+2025-04-11T07:49:17:       'accept-encoding': [Array],
+2025-04-11T07:49:17:       referer: [Array],
+2025-04-11T07:49:17:       authorization: [Array],
+2025-04-11T07:49:17:       origin: [Array],
+2025-04-11T07:49:17:       connection: [Array],
+2025-04-11T07:49:17:       'sec-fetch-dest': [Array],
+2025-04-11T07:49:17:       'sec-fetch-mode': [Array],
+2025-04-11T07:49:17:       'sec-fetch-site': [Array],
+2025-04-11T07:49:17:       priority: [Array],
+2025-04-11T07:49:17:       'content-length': [Array],
+2025-04-11T07:49:17:       host: [Array]
+2025-04-11T07:49:17:     },
+2025-04-11T07:49:17:     [Symbol(errored)]: null,
+2025-04-11T07:49:17:     [Symbol(kHighWaterMark)]: 16384,
+2025-04-11T07:49:17:     [Symbol(kRejectNonStandardBodyWrites)]: false,
+2025-04-11T07:49:17:     [Symbol(kUniqueHeaders)]: null
+2025-04-11T07:49:17:   },
+2025-04-11T07:49:17:   response: {
+2025-04-11T07:49:17:     status: 500,
+2025-04-11T07:49:17:     statusText: 'Internal Server Error',
+2025-04-11T07:49:17:     headers: Object [AxiosHeaders] {
+2025-04-11T07:49:17:       server: 'nginx/1.24.0 (Ubuntu)',
+2025-04-11T07:49:17:       date: 'Fri, 11 Apr 2025 06:49:17 GMT',
+2025-04-11T07:49:17:       'content-type': 'application/json; charset=utf-8',
+2025-04-11T07:49:17:       'content-length': '281',
+2025-04-11T07:49:17:       connection: 'keep-alive',
+2025-04-11T07:49:17:       'x-powered-by': 'Express',
+2025-04-11T07:49:17:       'access-control-allow-origin': '*',
+2025-04-11T07:49:17:       'access-control-allow-methods': 'GET,PUT,POST,DELETE,PATCH',
+2025-04-11T07:49:17:       'access-control-allow-headers': 'Content-Type,user-id',
+2025-04-11T07:49:17:       etag: 'W/"119-4IwYCAEiZ/13pYnc4mL85yvTtlM"'
+2025-04-11T07:49:17:     },
+2025-04-11T07:49:17:     config: {
+2025-04-11T07:49:17:       transitional: [Object],
+2025-04-11T07:49:17:       adapter: [Array],
+2025-04-11T07:49:17:       transformRequest: [Array],
+2025-04-11T07:49:17:       transformResponse: [Array],
+2025-04-11T07:49:17:       timeout: 30000,
+2025-04-11T07:49:17:       xsrfCookieName: 'XSRF-TOKEN',
+2025-04-11T07:49:17:       xsrfHeaderName: 'X-XSRF-TOKEN',
+2025-04-11T07:49:17:       maxContentLength: -1,
+2025-04-11T07:49:17:       maxBodyLength: -1,
+2025-04-11T07:49:17:       env: [Object],
+2025-04-11T07:49:17:       validateStatus: [Function: validateStatus],
+2025-04-11T07:49:17:       headers: [Object [AxiosHeaders]],
+2025-04-11T07:49:17:       responseType: 'arraybuffer',
+2025-04-11T07:49:17:       method: 'post',
+2025-04-11T07:49:17:       url: 'https://aitoolseo.com/api/voice',
+2025-04-11T07:49:17:       data: '{"text":"Trong cái không khí âm u của buổi tối, Minh, chàng sinh viên ngành khảo cổ, nằm mơ thấy mình đang lạc trong một khu rừng rậm rạp. Những bóng cây trầm mặc, cao vút như những bóng ma, che khuất cả ánh trăng lờ mờ. Trong giấc mơ ấy, Minh bị bao quanh bởi những con rắn lớn, với ánh mắt sáng rực, chúng di chuyển chậm rãi nhưng đầy đe dọa. Minh cố gắng chạy thoát nhưng cảm giác như đôi chân nặng trĩu không thể cử động được. Mồ hôi lạnh toát ra, Minh giật mình tỉnh giấc, tim đập loạn xạ như vừa thoát khỏi một cơn ác mộng. Ngày hôm sau, Minh quyết định tìm đến bà Tư, một người bán hàng rong sống một mình trong ngôi nhà cổ ở cuối làng. Bà Tư nổi tiếng là người am hiểu chuyện tâm linh. Minh nghĩ rằng bà có thể giúp cậu giải đáp ý nghĩa của những giấc mơ kỳ lạ này. Khi Minh tới nơi, bà Tư đang ngồi bên bếp lửa nhỏ, ánh lửa le lói phản chiếu lên gương mặt đã hằn sâu dấu vết thời gian. - Dạ, chào bà Tư, con là Minh đây. Mấy bữa nay con hay mơ thấy rắn, thấy lạ lắm. Bà có biết gì không, bà? - Minh hỏi, giọng điệu có phần lo lắng. Bà Tư nhìn Minh một lúc lâu, rồi khẽ gật đầu. Bà chậm rãi kể lại một truyền thuyết cổ xưa về ngôi làng bị nguyền rủa bởi một con rắn thần. Truyền thuyết nói rằng, hàng trăm năm trước, một ngôi làng đã bị rắn thần nguyền rủa và những người trong làng dần biến thành rắn. Chỉ có một người sống sót, nhưng không ai biết người ấy là ai. - Con phải cẩn thận, Minh à. Ngôi nhà này có nhiều bí mật lắm, mà không phải ai cũng biết đâu - bà Tư nói, giọng bà như thể chất chứa điều gì đó sâu kín. Nghe bà Tư nói, Minh cảm thấy tò mò. Cậu quyết định khám phá ngôi nhà cổ của bà Tư. Bên trong là một không gian tối tăm, nhiều ngóc ngách. Minh phát hiện ra những bức tranh cũ kỹ, trên đó vẽ những con rắn đang quấn quanh những bóng dáng con người. Minh cảm thấy rùng mình khi nhìn vào mắt của những bức tranh, như thể chúng đang sống động và theo dõi cậu. Một đêm nọ, khi Minh đang xem xét một căn phòng bí mật, cậu bất ngờ bị bao vây bởi những linh hồn rắn. Chúng trườn bò quanh Minh, phát ra những âm thanh ghê rợn. Minh hít một hơi thật sâu, nhớ lại những lời bà Tư, cậu cố gắng giữ bình tĩnh để tìm cách giải lời nguyền. Cậu nhớ tới câu chuyện về người sống sót và nhận ra rằng chỉ khi tìm ra người ấy, cậu mới có thể giải phóng các linh hồn. Sau nhiều ngày tìm hiểu, Minh dần khám phá ra bí mật về quá khứ của bà Tư. Hóa ra, bà chính là người sống sót từ ngôi làng bị nguyền rủa. Bà đã giấu giếm thân phận để bảo vệ mình khỏi những linh hồn rắn. Minh đối mặt với bà Tư và cùng nhau tìm ra cách giải thoát cho ngôi làng. Với sự giúp đỡ của Minh, bà Tư cuối cùng cũng có thể giải phóng các linh hồn và chấm dứt lời nguyền hàng trăm năm. Ngôi làng trở lại bình yên, bà Tư trở thành một người kể chuyện, truyền lại những kinh nghiệm của mình cho thế hệ sau. Minh, sau khi trải qua hành trình đầy gian nan, nhận ra rằng đôi khi, để giải quyết một vấn đề, ta cần phải đối diện với nỗi sợ và khám phá những bí mật bên trong chính mình. Đó là cách duy nhất để tìm thấy sự bình yên. Giấc mơ rắn không còn ám ảnh Minh nữa. Cậu học được rằng, những giấc mơ đôi khi là lời nhắc nhở từ tâm linh, chỉ đường cho ta tìm về nguồn cội và hiểu rõ hơn về bản thân. Minh bước ra khỏi cuộc phiêu lưu này với một cái nhìn mới về cuộc sống, về lòng dũng cảm và sự kiên trì không ngừng nghỉ.","voice_name":"vi-VN-NamMinhNeural","speed":1,"userId":2}',
+2025-04-11T07:49:17:       allowAbsoluteUrls: true
+2025-04-11T07:49:17:     },
+2025-04-11T07:49:17:     request: <ref *1> ClientRequest {
+2025-04-11T07:49:17:       _events: [Object: null prototype],
+2025-04-11T07:49:17:       _eventsCount: 7,
+2025-04-11T07:49:17:       _maxListeners: undefined,
+2025-04-11T07:49:17:       outputData: [],
+2025-04-11T07:49:17:       outputSize: 0,
+2025-04-11T07:49:17:       writable: true,
+2025-04-11T07:49:17:       destroyed: true,
+2025-04-11T07:49:17:       _last: true,
+2025-04-11T07:49:17:       chunkedEncoding: false,
+2025-04-11T07:49:17:       shouldKeepAlive: true,
+2025-04-11T07:49:17:       maxRequestsOnConnectionReached: false,
+2025-04-11T07:49:17:       _defaultKeepAlive: true,
+2025-04-11T07:49:17:       useChunkedEncodingByDefault: true,
+2025-04-11T07:49:17:       sendDate: false,
+2025-04-11T07:49:17:       _removedConnection: false,
+2025-04-11T07:49:17:       _removedContLen: false,
+2025-04-11T07:49:17:       _removedTE: false,
+2025-04-11T07:49:17:       strictContentLength: false,
+2025-04-11T07:49:17:       _contentLength: '4386',
+2025-04-11T07:49:17:       _hasBody: true,
+2025-04-11T07:49:17:       _trailer: '',
+2025-04-11T07:49:17:       finished: true,
+2025-04-11T07:49:17:       _headerSent: true,
+2025-04-11T07:49:17:       _closed: true,
+2025-04-11T07:49:17:       socket: [TLSSocket],
+2025-04-11T07:49:17:       _header: 'POST /api/voice HTTP/1.1\r\n' +
+2025-04-11T07:49:17:         'Accept: */*\r\n' +
+2025-04-11T07:49:17:         'Content-Type: application/json\r\n' +
+2025-04-11T07:49:17:         'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:137.0) Gecko/20100101 Firefox/137.0\r\n' +
+2025-04-11T07:49:17:         'Accept-Language: vi,en-US;q=0.7,en;q=0.3\r\n' +
+2025-04-11T07:49:17:         'Accept-Encoding: gzip, deflate, br, zstd\r\n' +
+2025-04-11T07:49:17:         'Referer: https://aitoolseo.com/voice-ads\r\n' +
+2025-04-11T07:49:17:         'Authorization: Bearer trinhnd19@gmail.com\r\n' +
+2025-04-11T07:49:17:         'Origin: https://aitoolseo.com\r\n' +
+2025-04-11T07:49:17:         'Connection: keep-alive\r\n' +
+2025-04-11T07:49:17:         'Sec-Fetch-Dest: empty\r\n' +
+2025-04-11T07:49:17:         'Sec-Fetch-Mode: cors\r\n' +
+2025-04-11T07:49:17:         'Sec-Fetch-Site: same-origin\r\n' +
+2025-04-11T07:49:17:         'Priority: u=0\r\n' +
+2025-04-11T07:49:17:         'Content-Length: 4386\r\n' +
+2025-04-11T07:49:17:         'Host: aitoolseo.com\r\n' +
+2025-04-11T07:49:17:         '\r\n',
+2025-04-11T07:49:17:       _keepAliveTimeout: 0,
+2025-04-11T07:49:17:       _onPendingData: [Function: nop],
+2025-04-11T07:49:17:       agent: [Agent],
+2025-04-11T07:49:17:       socketPath: undefined,
+2025-04-11T07:49:17:       method: 'POST',
+2025-04-11T07:49:17:       maxHeaderSize: undefined,
+2025-04-11T07:49:17:       insecureHTTPParser: undefined,
+2025-04-11T07:49:17:       joinDuplicateHeaders: undefined,
+2025-04-11T07:49:17:       path: '/api/voice',
+2025-04-11T07:49:17:       _ended: true,
+2025-04-11T07:49:17:       res: [IncomingMessage],
+2025-04-11T07:49:17:       aborted: false,
+2025-04-11T07:49:17:       timeoutCb: null,
+2025-04-11T07:49:17:       upgradeOrConnect: false,
+2025-04-11T07:49:17:       parser: null,
+2025-04-11T07:49:17:       maxHeadersCount: null,
+2025-04-11T07:49:17:       reusedSocket: false,
+2025-04-11T07:49:17:       host: 'aitoolseo.com',
+2025-04-11T07:49:17:       protocol: 'https:',
+2025-04-11T07:49:17:       _redirectable: [Writable],
+2025-04-11T07:49:17:       [Symbol(kCapture)]: false,
+2025-04-11T07:49:17:       [Symbol(kBytesWritten)]: 0,
+2025-04-11T07:49:17:       [Symbol(kNeedDrain)]: false,
+2025-04-11T07:49:17:       [Symbol(corked)]: 0,
+2025-04-11T07:49:17:       [Symbol(kOutHeaders)]: [Object: null prototype],
+2025-04-11T07:49:17:       [Symbol(errored)]: null,
+2025-04-11T07:49:17:       [Symbol(kHighWaterMark)]: 16384,
+2025-04-11T07:49:17:       [Symbol(kRejectNonStandardBodyWrites)]: false,
+2025-04-11T07:49:17:       [Symbol(kUniqueHeaders)]: null
+2025-04-11T07:49:17:     },
+2025-04-11T07:49:17:     data: <Buffer 7b 22 65 72 72 6f 72 22 3a 22 46 61 69 6c 65 64 20 74 6f 20 67 65 6e 65 72 61 74 65 20 61 75 64 69 6f 22 2c 22 64 65 74 61 69 6c 73 22 3a 22 54 54 53 ... 231 more bytes>
+2025-04-11T07:49:17:   },
+2025-04-11T07:49:17:   status: 500
+2025-04-11T07:49:17: }
+2025-04-18T07:07:15: Kết quả không phải là chuỗi: {
+2025-04-18T07:07:15:   content: '{"content":"Xin chào các bạn, quý vị thính giả, chào mừng đến với Kênh Truyện Ma Online - Những câu chuyện Kinh Dị hấp dẫn. Hôm nay chúng ta sẽ khám phá một câu chuyện Kinh Dị đặc sắc với tựa đề \\"Chiếc Dù Quỷ Ám\\". Hãy chuẩn bị tinh thần cho một hành trình đầy hồi hộp và ly kỳ. [SEPARATOR] Câu chuyện \\"Chiếc Dù Quỷ Ám\\" nhắc nhở chúng ta về sự cẩn trọng khi đối diện với những điều bí ẩn trong cuộc sống. Đôi khi, những thứ tưởng chừng vô hại lại có thể mang đến nhiều rắc rối không ngờ. Cảm ơn quý vị đã lắng nghe, hẹn gặp lại trong các tập sau. Đừng quên theo dõi kênh và chia sẻ nếu thích nội dung."}'
+2025-04-18T07:07:15: }
+2025-04-18T07:28:27: JSON Parse Error: SyntaxError: Unexpected token , in JSON at position 4596
+2025-04-18T07:28:27:     at JSON.parse (<anonymous>)
+2025-04-18T07:28:27:     at extractJson (file:///home/kct/viettruyen/dist/index.js:299:23)
+2025-04-18T07:28:27:     at generateStoryContent (file:///home/kct/viettruyen/dist/index.js:587:10)
+2025-04-18T07:28:27:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-18T07:28:27:     at async generateFullStory (file:///home/kct/viettruyen/dist/index.js:517:26)
+2025-04-18T07:28:27:     at async file:///home/kct/viettruyen/dist/index.js:2066:21
+2025-04-18T07:28:27: Alternative JSON Parse Error: SyntaxError: Unexpected token , in JSON at position 4541
+2025-04-18T07:28:27:     at JSON.parse (<anonymous>)
+2025-04-18T07:28:27:     at extractJson (file:///home/kct/viettruyen/dist/index.js:380:23)
+2025-04-18T07:28:27:     at generateStoryContent (file:///home/kct/viettruyen/dist/index.js:587:10)
+2025-04-18T07:28:27:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-18T07:28:27:     at async generateFullStory (file:///home/kct/viettruyen/dist/index.js:517:26)
+2025-04-18T07:28:27:     at async file:///home/kct/viettruyen/dist/index.js:2066:21
+2025-04-18T07:28:27: Lỗi khi tạo truyện đầy đủ: Error: Không thể phân tích JSON từ phản hồi sau nhiều lần thử
+2025-04-18T07:28:27:     at extractJson (file:///home/kct/viettruyen/dist/index.js:421:11)
+2025-04-18T07:28:27:     at generateStoryContent (file:///home/kct/viettruyen/dist/index.js:587:10)
+2025-04-18T07:28:27:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-18T07:28:27:     at async generateFullStory (file:///home/kct/viettruyen/dist/index.js:517:26)
+2025-04-18T07:28:27:     at async file:///home/kct/viettruyen/dist/index.js:2066:21
+2025-04-18T07:28:27: Lỗi khi tạo truyện đầy đủ: Error: Không thể tạo truyện đầy đủ: Không thể phân tích JSON từ phản hồi sau nhiều lần thử
+2025-04-18T07:28:27:     at generateFullStory (file:///home/kct/viettruyen/dist/index.js:538:11)
+2025-04-18T07:28:27:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-18T07:28:27:     at async file:///home/kct/viettruyen/dist/index.js:2066:21
+2025-04-18T10:08:40: Kết quả không phải là chuỗi: {
+2025-04-18T10:08:40:   content: '```json\n' +
+2025-04-18T10:08:40:     '{\n' +
+2025-04-18T10:08:40:     `  "content": "Xin chào các bạn, quý vị thính giả! Chào mừng đến với 'Kênh Truyện Ma Online - Những câu chuyện Kinh Dị hấp dẫn'. Hôm nay chúng ta sẽ khám phá một câu chuyện Kinh Dị đặc sắc với tựa đề 'Chiếc Dù Quỷ Ám'. Hãy cùng dấn thân vào một buổi sáng mưa đầy bí ẩn, nơi mọi thứ bắt đầu từ một chiếc dù cũ kỹ... [SEPARATOR] Câu chuyện 'Chiếc Dù Quỷ Ám' nhắc nhở chúng ta rằng sự tò mò đôi khi có thể dẫn đến những điều không ngờ. Trong cuộc sống, hãy luôn thận trọng khi đối mặt với những điều chưa biết. Cảm ơn quý vị đã lắng nghe, hẹn gặp lại trong các tập sau. Đừng quên theo dõi kênh và chia sẻ nếu thích nội dung!"\n` +
+2025-04-18T10:08:40:     '}\n' +
+2025-04-18T10:08:40:     '```'
+2025-04-18T10:08:40: }
+2025-04-18T10:09:26: Lỗi khi sử dụng API vkct.synology.me: AxiosError: read ECONNRESET
+2025-04-18T10:09:26:     at AxiosError.from (file:///home/kct/viettruyen/node_modules/axios/lib/core/AxiosError.js:92:14)
+2025-04-18T10:09:26:     at RedirectableRequest.handleRequestError (file:///home/kct/viettruyen/node_modules/axios/lib/adapters/http.js:620:25)
+2025-04-18T10:09:26:     at RedirectableRequest.emit (node:events:529:35)
+2025-04-18T10:09:26:     at eventHandlers.<computed> (/home/kct/viettruyen/node_modules/follow-redirects/index.js:49:24)
+2025-04-18T10:09:26:     at ClientRequest.emit (node:events:517:28)
+2025-04-18T10:09:26:     at Socket.socketErrorListener (node:_http_client:501:9)
+2025-04-18T10:09:26:     at Socket.emit (node:events:517:28)
+2025-04-18T10:09:26:     at emitErrorNT (node:internal/streams/destroy:151:8)
+2025-04-18T10:09:26:     at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+2025-04-18T10:09:26:     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-04-18T10:09:26:     at Axios.request (file:///home/kct/viettruyen/node_modules/axios/lib/core/Axios.js:45:41)
+2025-04-18T10:09:26:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-18T10:09:26:     at async generateAudio (file:///home/kct/viettruyen/dist/index.js:928:24)
+2025-04-18T10:09:26:     at async Timeout._onTimeout (file:///home/kct/viettruyen/dist/index.js:2848:29) {
+2025-04-18T10:09:26:   syscall: 'read',
+2025-04-18T10:09:26:   code: 'ECONNRESET',
+2025-04-18T10:09:26:   errno: -104,
+2025-04-18T10:09:26:   config: {
+2025-04-18T10:09:26:     transitional: {
+2025-04-18T10:09:26:       silentJSONParsing: true,
+2025-04-18T10:09:26:       forcedJSONParsing: true,
+2025-04-18T10:09:26:       clarifyTimeoutError: false
+2025-04-18T10:09:26:     },
+2025-04-18T10:09:26:     adapter: [ 'xhr', 'http', 'fetch' ],
+2025-04-18T10:09:26:     transformRequest: [ [Function: transformRequest] ],
+2025-04-18T10:09:26:     transformResponse: [ [Function: transformResponse] ],
+2025-04-18T10:09:26:     timeout: 60000,
+2025-04-18T10:09:26:     xsrfCookieName: 'XSRF-TOKEN',
+2025-04-18T10:09:26:     xsrfHeaderName: 'X-XSRF-TOKEN',
+2025-04-18T10:09:26:     maxContentLength: -1,
+2025-04-18T10:09:26:     maxBodyLength: -1,
+2025-04-18T10:09:26:     env: { FormData: [Function [FormData]], Blob: [class Blob] },
+2025-04-18T10:09:26:     validateStatus: [Function: validateStatus],
+2025-04-18T10:09:26:     headers: Object [AxiosHeaders] {
+2025-04-18T10:09:26:       Accept: 'application/json, text/plain, */*',
+2025-04-18T10:09:26:       'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8',
+2025-04-18T10:09:26:       'User-Agent': 'axios/1.8.4',
+2025-04-18T10:09:26:       'Content-Length': '8038',
+2025-04-18T10:09:26:       'Accept-Encoding': 'gzip, compress, deflate, br'
+2025-04-18T10:09:26:     },
+2025-04-18T10:09:26:     responseType: 'arraybuffer',
+2025-04-18T10:09:26:     method: 'post',
+2025-04-18T10:09:26:     url: 'http://vkct.synology.me:5014/tts',
+2025-04-18T10:09:26:     data: 'text=M%E1%BB%99t+bu%E1%BB%95i+s%C3%A1ng+m%C3%B9a+m%C6%B0a%2C+khi+nh%E1%BB%AFng+%C4%91%C3%A1m+m%C3%A2y+x%C3%A1m+x%E1%BB%8Bt+ph%E1%BB%A7+k%C3%ADn+b%E1%BA%A7u+tr%E1%BB%9Di%2C+Ph%C3%BAc+-+m%E1%BB%99t+c%E1%BA%ADu+sinh+vi%C3%AAn+%C4%91%E1%BA%A1i+h%E1%BB%8Dc+chuy%C3%AAn+ng%C3%A0nh+ki%E1%BA%BFn+tr%C3%BAc%2C+%C4%91ang+%C4%91i+d%E1%BA%A1o+quanh+ch%E1%BB%A3+qu%C3%AA.+Ch%E1%BB%A3+h%C3%B4m+nay+v%E1%BA%AFng+tanh%2C+ch%E1%BB%89+c%C3%B3+v%C3%A0i+gian+h%C3%A0ng+c%C3%B2n+m%E1%BB%9F+c%E1%BB%ADa%2C+v%C3%A0+m%E1%BB%8Di+th%E1%BB%A9+%C4%91%E1%BB%81u+%C6%B0%E1%BB%9Bt+s%C5%A9ng+v%C3%AC+c%C6%A1n+m%C6%B0a+dai+d%E1%BA%B3ng+t%E1%BB%AB+%C4%91%C3%AAm+qua.+Ph%C3%BAc%2C+v%E1%BB%91n+l%C3%A0+m%E1%BB%99t+ng%C6%B0%E1%BB%9Di+t%C3%B2+m%C3%B2+v%C3%A0+h%C6%A1i+nh%C3%A1t+gan%2C+%C4%91ang+t%C3%ACm+ki%E1%BA%BFm+nh%E1%BB%AFng+m%C3%B3n+%C4%91%E1%BB%93+c%E1%BB%95+l%E1%BA%A1+m%E1%BA%AFt+%C4%91%E1%BB%83+l%C3%A0m+qu%C3%A0+cho+m%E1%BB%99t+ng%C6%B0%E1%BB%9Di+b%E1%BA%A1n.+Khi+b%C6%B0%E1%BB%9Bc+qua+m%E1%BB%99t+gian+h%C3%A0ng+b%E1%BB%8F+tr%E1%BB%91ng%2C+c%E1%BA%ADu+t%C3%ACnh+c%E1%BB%9D+nh%C3%ACn+th%E1%BA%A5y+m%E1%BB%99t+chi%E1%BA%BFc+d%C3%B9+c%C5%A9+k%E1%BB%B9+n%E1%BA%B1m+l%C4%83n+l%C3%B3c+tr%C3%AAn+%C4%91%E1%BA%A5t.+Chi%E1%BA%BFc+d%C3%B9+m%C3%A0u+%C4%91en%2C+g%E1%BB%97+c%E1%BA%A7m+tay+%C4%91%C3%A3+m%E1%BB%8Dt%2C+nh%C6%B0ng+v%E1%BA%A3i+d%C3%B9+v%E1%BA%ABn+c%C3%B2n+nguy%C3%AAn+v%E1%BA%B9n.+Kh%C3%B4ng+hi%E1%BB%83u+sao%2C+Ph%C3%BAc+c%E1%BA%A3m+th%E1%BA%A5y+b%E1%BB%8B+thu+h%C3%BAt+k%E1%BB%B3+l%E1%BA%A1+b%E1%BB%9Fi+chi%E1%BA%BFc+d%C3%B9+n%C3%A0y.+C%E1%BA%ADu+nh%E1%BA%B7t+l%C3%AAn%2C+m%E1%BB%9F+ra+v%C3%A0+c%E1%BA%A3m+th%E1%BA%A5y+m%E1%BB%99t+lu%E1%BB%93ng+kh%C3%AD+l%E1%BA%A1nh+ch%E1%BA%A1y+d%E1%BB%8Dc+s%E1%BB%91ng+l%C6%B0ng.%0A%0A%27%E1%BB%A6a%2C+sao+m%C3%A0+l%E1%BA%A1nh+d%E1%BB%AF+v%E1%BA%ADy+n%C3%A8%3F%27+Ph%C3%BAc+t%E1%BB%B1+h%E1%BB%8Fi%2C+r%E1%BB%93i+nhanh+ch%C3%B3ng+g%E1%BA%ADp+d%C3%B9+l%E1%BA%A1i.+%C4%90%C3%BAng+l%C3%BAc+%C4%91%C3%B3%2C+C%C3%B4+Ba+-+m%E1%BB%99t+ng%C6%B0%E1%BB%9Di+ph%E1%BB%A5+n%E1%BB%AF+l%E1%BB%9Bn+tu%E1%BB%95i+b%C3%A1n+n%C6%B0%E1%BB%9Bc+d%E1%BB%ABa%2C+b%C6%B0%E1%BB%9Bc+t%E1%BB%9Bi.+%27B%E1%BB%99+c%E1%BA%ADu+kh%C3%B4ng+bi%E1%BA%BFt+%C4%91%C3%B3+l%C3%A0+chi%E1%BA%BFc+d%C3%B9+qu%E1%BB%B7+%C3%A1m+sao%3F%27+C%C3%B4+Ba+h%E1%BB%8Fi%2C+gi%E1%BB%8Dng+nghi%C3%AAm+ngh%E1%BB%8B.+Ph%C3%BAc+nh%C3%ACn+b%C3%A0%2C+h%C6%A1i+ng%E1%BA%A1c+nhi%C3%AAn%3A+%27D%E1%BA%A1%2C+chi%E1%BA%BFc+d%C3%B9+n%C3%A0y+c%C3%B3+chuy%E1%BB%87n+g%C3%AC+v%E1%BA%ADy+c%C3%B4%3F%27+C%C3%B4+Ba+ng%C6%B0%E1%BB%9Bc+nh%C3%ACn+tr%E1%BB%9Di%2C+r%E1%BB%93i+th%C3%AC+th%E1%BA%A7m%3A+%27Chi%E1%BA%BFc+d%C3%B9+n%C3%A0y+t%E1%BB%ABng+thu%E1%BB%99c+v%E1%BB%81+m%E1%BB%99t+ng%C6%B0%E1%BB%9Di+%C4%91%C3%A0n+%C3%B4ng+trong+l%C3%A0ng%2C+nh%C6%B0ng+%C3%B4ng+%E1%BA%A5y+m%E1%BA%A5t+t%C3%ADch+b%C3%AD+%E1%BA%A9n+trong+m%E1%BB%99t+%C4%91%C3%AAm+b%C3%A3o+l%E1%BB%9Bn.+T%E1%BB%AB+%C4%91%C3%B3%2C+ai+c%E1%BA%A7m+chi%E1%BA%BFc+d%C3%B9+n%C3%A0y+%C4%91%E1%BB%81u+g%E1%BA%B7p+chuy%E1%BB%87n+kh%C3%B4ng+may.+Tui+khuy%C3%AAn+c%E1%BA%ADu+n%C3%AAn+b%E1%BB%8F+n%C3%B3+l%E1%BA%A1i+%C4%91i.%27%0A%0APh%C3%BAc+nghe+m%C3%A0+r%C3%B9ng+m%C3%ACnh%2C+nh%C6%B0ng+c%E1%BA%ADu+kh%C3%B4ng+tin+v%C3%A0o+nh%E1%BB%AFng+l%E1%BB%9Di+%C4%91%E1%BB%93n+%C4%91%E1%BA%A1i+v%C3%B4+c%C4%83n+c%E1%BB%A9.+%27C%E1%BA%A3m+%C6%A1n+c%C3%B4%2C+nh%C6%B0ng+ch%C3%A1u+ngh%C4%A9+ch%E1%BA%AFc+kh%C3%B4ng+c%C3%B3+g%C3%AC+%C4%91%C3%A2u.%27+Ph%C3%BAc+%C4%91%C3%A1p%2C+r%E1%BB%93i+ti%E1%BA%BFp+t%E1%BB%A5c+c%E1%BA%A7m+chi%E1%BA%BFc+d%C3%B9+v%E1%BB%81+nh%C3%A0.+%C4%90%C3%AAm+%C4%91%C3%B3%2C+khi+n%E1%BA%B1m+tr%C3%AAn+gi%C6%B0%E1%BB%9Dng%2C+Ph%C3%BAc+b%E1%BA%AFt+%C4%91%E1%BA%A7u+th%E1%BA%A5y+nh%E1%BB%AFng+gi%E1%BA%A5c+m%C6%A1+k%E1%BB%B3+l%E1%BA%A1.+C%E1%BA%ADu+m%C6%A1+th%E1%BA%A5y+m%C3%ACnh+l%E1%BA%A1c+v%C3%A0o+m%E1%BB%99t+ng%C3%B4i+l%C3%A0ng+hoang+vu%2C+xung+quanh+l%C3%A0+nh%E1%BB%AFng+b%C3%B3ng+ma+m%E1%BB%9D+%E1%BA%A3o%2C+v%C3%A0+chi%E1%BA%BFc+d%C3%B9+trong+tay+c%E1%BA%ADu+ph%C3%A1t+ra+%C3%A1nh+s%C3%A1ng+ma+qu%C3%A1i.%0A%0ANh%E1%BB%AFng+ng%C3%A0y+sau+%C4%91%C3%B3%2C+Ph%C3%BAc+li%C3%AAn+t%E1%BB%A5c+g%E1%BA%B7p+ph%E1%BA%A3i+nh%E1%BB%AFng+hi%E1%BB%87n+t%C6%B0%E1%BB%A3ng+kh%C3%B3+gi%E1%BA%A3i+th%C3%ADch.+%C4%90%C3%B4i+khi%2C+c%E1%BA%ADu+th%E1%BA%A5y+b%C3%B3ng+ng%C6%B0%E1%BB%9Di+tho%C3%A1ng+qua+c%E1%BB%ADa+s%E1%BB%95%2C+hay+nghe+ti%E1%BA%BFng+th%C3%AC+th%E1%BA%A7m+trong+%C4%91%C3%AAm.+C%E1%BA%ADu+c%C3%A0ng+l%C3%BAc+c%C3%A0ng+lo+l%E1%BA%AFng%2C+v%C3%A0+cu%E1%BB%91i+c%C3%B9ng+quy%E1%BA%BFt+%C4%91%E1%BB%8Bnh+t%C3%ACm+%C4%91%E1%BA%BFn+C%C3%B4+Ba+%C4%91%E1%BB%83+h%E1%BB%8Fi+r%C3%B5+h%C6%A1n.+%27Ch%C3%A1u+th%E1%BA%A5y+nh%E1%BB%AFng+gi%E1%BA%A5c+m%C6%A1+k%E1%BB%B3+l%E1%BA%A1+v%C3%A0+nh%E1%BB%AFng+chuy%E1%BB%87n+kh%C3%B4ng+th%E1%BB%83+gi%E1%BA%A3i+th%C3%ADch+%C4%91%C6%B0%E1%BB%A3c.+C%C3%B3+khi+n%C3%A0o+chi%E1%BA%BFc+d%C3%B9+n%C3%A0y+th%E1%BB%B1c+s%E1%BB%B1+b%E1%BB%8B+nguy%E1%BB%81n+r%E1%BB%A7a+kh%C3%B4ng+c%C3%B4%3F%27+Ph%C3%BAc+h%E1%BB%8Fi%2C+gi%E1%BB%8Dng+run+run.+C%C3%B4+Ba+nh%C3%ACn+c%E1%BA%ADu%2C+th%E1%BB%9F+d%C3%A0i%3A+%27C%E1%BA%ADu+ph%E1%BA%A3i+tr%E1%BA%A3+n%C3%B3+v%E1%BB%81+n%C6%A1i+n%C3%B3+thu%E1%BB%99c+v%E1%BB%81.+Ch%E1%BB%89+c%C3%B3+c%C3%A1ch+%C4%91%C3%B3+m%E1%BB%9Bi+gi%E1%BA%A3i+tho%C3%A1t+%C4%91%C6%B0%E1%BB%A3c+linh+h%E1%BB%93n+ch%E1%BB%A7+nh%C3%A2n.%27%0A%0AV%E1%BA%ADy+l%C3%A0+Ph%C3%BAc+quy%E1%BA%BFt+%C4%91%E1%BB%8Bnh+l%C3%AAn+%C4%91%C6%B0%E1%BB%9Dng%2C+mang+theo+chi%E1%BA%BFc+d%C3%B9%2C+%C4%91i+t%C3%ACm+ng%C3%B4i+l%C3%A0ng+m%C3%A0+c%E1%BA%ADu+t%E1%BB%ABng+th%E1%BA%A5y+trong+gi%E1%BA%A5c+m%C6%A1.+Sau+nhi%E1%BB%81u+ng%C3%A0y+t%C3%ACm+ki%E1%BA%BFm%2C+c%E1%BA%ADu+cu%E1%BB%91i+c%C3%B9ng+c%C5%A9ng+t%E1%BB%9Bi+%C4%91%C6%B0%E1%BB%A3c+m%E1%BB%99t+ng%C3%B4i+l%C3%A0ng+b%E1%BB%8F+hoang%2C+n%C6%A1i+kh%C3%B4ng+c%C3%B3+b%C3%B3ng+d%C3%A1ng+ng%C6%B0%E1%BB%9Di+s%E1%BB%91ng.+C%E1%BA%ADu+c%E1%BA%A3m+nh%E1%BA%ADn+%C4%91%C6%B0%E1%BB%A3c+kh%C3%B4ng+kh%C3%AD+%C3%A2m+u%2C+l%E1%BA%A1nh+l%E1%BA%BDo+c%E1%BB%A7a+n%C6%A1i+n%C3%A0y%2C+v%C3%A0+linh+c%E1%BA%A3m+r%E1%BA%B1ng+%C4%91%C3%A2y+ch%C3%ADnh+l%C3%A0+n%C6%A1i+chi%E1%BA%BFc+d%C3%B9+thu%E1%BB%99c+v%E1%BB%81.+Ph%C3%BAc+l%E1%BA%A7m+l%C5%A9i+b%C6%B0%E1%BB%9Bc+%C4%91i+gi%E1%BB%AFa+nh%E1%BB%AFng+ng%C3%B4i+nh%C3%A0+%C4%91%E1%BB%95+n%C3%A1t%2C+v%C3%A0+cu%E1%BB%91i+c%C3%B9ng+c%C5%A9ng+t%C3%ACm+th%E1%BA%A5y+ng%C3%B4i+m%E1%BB%99+c%E1%BB%A7a+ch%E1%BB%A7+nh%C3%A2n+chi%E1%BA%BFc+d%C3%B9+trong+m%E1%BB%99t+g%C3%B3c+khu%E1%BA%A5t+c%E1%BB%A7a+ngh%C4%A9a+trang.%0A%0APh%C3%BAc+%C4%91%E1%BA%B7t+chi%E1%BA%BFc+d%C3%B9+l%C3%AAn+m%E1%BB%99%2C+v%C3%A0+b%E1%BA%A5t+ng%E1%BB%9D%2C+m%E1%BB%99t+c%C6%A1n+gi%C3%B3+m%E1%BA%A1nh+th%E1%BB%95i+qua%2C+cu%E1%BB%91n+theo+nh%E1%BB%AFng+chi%E1%BA%BFc+l%C3%A1+kh%C3%B4+l%E1%BA%A5p+%C4%91%E1%BA%A7y+b%C3%A3i+%C4%91%E1%BA%A5t+tr%E1%BB%91ng.+R%E1%BB%93i%2C+nh%C6%B0+m%E1%BB%99t+ph%C3%A9p+l%E1%BA%A1%2C+m%E1%BB%8Di+th%E1%BB%A9+tr%E1%BB%9F+n%C3%AAn+y%C3%AAn+b%C3%ACnh.+Ph%C3%BAc+c%E1%BA%A3m+th%E1%BA%A5y+nh%E1%BA%B9+nh%C3%B5m%2C+nh%C6%B0+v%E1%BB%ABa+tr%C3%BAt+b%E1%BB%8F+%C4%91%C6%B0%E1%BB%A3c+m%E1%BB%99t+g%C3%A1nh+n%E1%BA%B7ng+l%E1%BB%9Bn.+Khi+quay+v%E1%BB%81%2C+c%E1%BA%ADu+c%E1%BA%A3m+th%E1%BA%A5y+m%E1%BB%8Di+th%E1%BB%A9+%C4%91%C3%A3+tr%E1%BB%9F+l%E1%BA%A1i+b%C3%ACnh+th%C6%B0%E1%BB%9Dng%2C+kh%C3%B4ng+c%C3%B2n+nh%E1%BB%AFng+gi%E1%BA%A5c+m%C6%A1+hay+hi%E1%BB%87n+t%C6%B0%E1%BB%A3ng+k%E1%BB%B3+qu%C3%A1i+%C3%A1m+%E1%BA%A3nh+c%E1%BA%ADu+n%E1%BB%AFa.%0A%0AT%E1%BB%AB+c%C3%A2u+chuy%E1%BB%87n+n%C3%A0y%2C+Ph%C3%BAc+%C4%91%C3%A3+r%C3%BAt+ra+m%E1%BB%99t+b%C3%A0i+h%E1%BB%8Dc+qu%C3%BD+gi%C3%A1+v%E1%BB%81+l%C3%B2ng+tham+v%C3%A0+l%C3%B2ng+t%E1%BB%91t.+%C4%90%C3%B4i+khi%2C+th%E1%BB%A9+ch%C3%BAng+ta+t%C3%ACm+ki%E1%BA%BFm+kh%C3%B4ng+h%E1%BA%B3n+l%C3%A0+nh%E1%BB%AFng+v%E1%BA%ADt+ch%E1%BA%A5t+h%C3%A0o+nho%C3%A1ng%2C+m%C3%A0+l%C3%A0+s%E1%BB%B1+b%C3%ACnh+y%C3%AAn+trong+t%C3%A2m+h%E1%BB%93n.+V%C3%A0+s%E1%BB%B1+b%C3%ACnh+y%C3%AAn+%C4%91%C3%B3+ch%E1%BB%89+c%C3%B3+th%E1%BB%83+%C4%91%E1%BA%A1t+%C4%91%C6%B0%E1%BB%A3c+khi+ta+bi%E1%BA%BFt+t%C3%B4n+tr%E1%BB%8Dng+nh%E1%BB%AFng+g%C3%AC+thu%E1%BB%99c+v%E1%BB%81+ng%C6%B0%E1%BB%9Di+kh%C3%A1c%2C+v%C3%A0+bi%E1%BA%BFt+%C4%91%E1%BA%B7t+l%C3%B2ng+t%E1%BB%91t+l%C3%AAn+tr%C3%AAn+m%E1%BB%8Di+th%E1%BB%A9.&voice_name=vi-VN-NamMinhNeural',
+2025-04-18T10:09:26:     allowAbsoluteUrls: true
+2025-04-18T10:09:26:   },
+2025-04-18T10:09:26:   request: <ref *1> Writable {
+2025-04-18T10:09:26:     _writableState: WritableState {
+2025-04-18T10:09:26:       objectMode: false,
+2025-04-18T10:09:26:       highWaterMark: 16384,
+2025-04-18T10:09:26:       finalCalled: false,
+2025-04-18T10:09:26:       needDrain: false,
+2025-04-18T10:09:26:       ending: false,
+2025-04-18T10:09:26:       ended: false,
+2025-04-18T10:09:26:       finished: false,
+2025-04-18T10:09:26:       destroyed: false,
+2025-04-18T10:09:26:       decodeStrings: true,
+2025-04-18T10:09:26:       defaultEncoding: 'utf8',
+2025-04-18T10:09:26:       length: 0,
+2025-04-18T10:09:26:       writing: false,
+2025-04-18T10:09:26:       corked: 0,
+2025-04-18T10:09:26:       sync: true,
+2025-04-18T10:09:26:       bufferProcessing: false,
+2025-04-18T10:09:26:       onwrite: [Function: bound onwrite],
+2025-04-18T10:09:26:       writecb: null,
+2025-04-18T10:09:26:       writelen: 0,
+2025-04-18T10:09:26:       afterWriteTickInfo: null,
+2025-04-18T10:09:26:       buffered: [],
+2025-04-18T10:09:26:       bufferedIndex: 0,
+2025-04-18T10:09:26:       allBuffers: true,
+2025-04-18T10:09:26:       allNoop: true,
+2025-04-18T10:09:26:       pendingcb: 0,
+2025-04-18T10:09:26:       constructed: true,
+2025-04-18T10:09:26:       prefinished: false,
+2025-04-18T10:09:26:       errorEmitted: false,
+2025-04-18T10:09:26:       emitClose: true,
+2025-04-18T10:09:26:       autoDestroy: true,
+2025-04-18T10:09:26:       errored: null,
+2025-04-18T10:09:26:       closed: false,
+2025-04-18T10:09:26:       closeEmitted: false,
+2025-04-18T10:09:26:       [Symbol(kOnFinished)]: []
+2025-04-18T10:09:26:     },
+2025-04-18T10:09:26:     _events: [Object: null prototype] {
+2025-04-18T10:09:26:       response: [Function: handleResponse],
+2025-04-18T10:09:26:       error: [Function: handleRequestError],
+2025-04-18T10:09:26:       socket: [Array]
+2025-04-18T10:09:26:     },
+2025-04-18T10:09:26:     _eventsCount: 3,
+2025-04-18T10:09:26:     _maxListeners: undefined,
+2025-04-18T10:09:26:     _options: {
+2025-04-18T10:09:26:       maxRedirects: 21,
+2025-04-18T10:09:26:       maxBodyLength: Infinity,
+2025-04-18T10:09:26:       protocol: 'http:',
+2025-04-18T10:09:26:       path: '/tts',
+2025-04-18T10:09:26:       method: 'POST',
+2025-04-18T10:09:26:       headers: [Object: null prototype],
+2025-04-18T10:09:26:       agents: [Object],
+2025-04-18T10:09:26:       auth: undefined,
+2025-04-18T10:09:26:       family: undefined,
+2025-04-18T10:09:26:       beforeRedirect: [Function: dispatchBeforeRedirect],
+2025-04-18T10:09:26:       beforeRedirects: [Object],
+2025-04-18T10:09:26:       hostname: 'vkct.synology.me',
+2025-04-18T10:09:26:       port: '5014',
+2025-04-18T10:09:26:       agent: undefined,
+2025-04-18T10:09:26:       nativeProtocols: [Object],
+2025-04-18T10:09:26:       pathname: '/tts'
+2025-04-18T10:09:26:     },
+2025-04-18T10:09:26:     _ended: true,
+2025-04-18T10:09:26:     _ending: true,
+2025-04-18T10:09:26:     _redirectCount: 0,
+2025-04-18T10:09:26:     _redirects: [],
+2025-04-18T10:09:26:     _requestBodyLength: 8038,
+2025-04-18T10:09:26:     _requestBodyBuffers: [ [Object] ],
+2025-04-18T10:09:26:     _onNativeResponse: [Function (anonymous)],
+2025-04-18T10:09:26:     _currentRequest: ClientRequest {
+2025-04-18T10:09:26:       _events: [Object: null prototype],
+2025-04-18T10:09:26:       _eventsCount: 7,
+2025-04-18T10:09:26:       _maxListeners: undefined,
+2025-04-18T10:09:26:       outputData: [],
+2025-04-18T10:09:26:       outputSize: 0,
+2025-04-18T10:09:26:       writable: true,
+2025-04-18T10:09:26:       destroyed: false,
+2025-04-18T10:09:26:       _last: true,
+2025-04-18T10:09:26:       chunkedEncoding: false,
+2025-04-18T10:09:26:       shouldKeepAlive: false,
+2025-04-18T10:09:26:       maxRequestsOnConnectionReached: false,
+2025-04-18T10:09:26:       _defaultKeepAlive: true,
+2025-04-18T10:09:26:       useChunkedEncodingByDefault: true,
+2025-04-18T10:09:26:       sendDate: false,
+2025-04-18T10:09:26:       _removedConnection: false,
+2025-04-18T10:09:26:       _removedContLen: false,
+2025-04-18T10:09:26:       _removedTE: false,
+2025-04-18T10:09:26:       strictContentLength: false,
+2025-04-18T10:09:26:       _contentLength: '8038',
+2025-04-18T10:09:26:       _hasBody: true,
+2025-04-18T10:09:26:       _trailer: '',
+2025-04-18T10:09:26:       finished: true,
+2025-04-18T10:09:26:       _headerSent: true,
+2025-04-18T10:09:26:       _closed: false,
+2025-04-18T10:09:26:       socket: [Socket],
+2025-04-18T10:09:26:       _header: 'POST /tts HTTP/1.1\r\n' +
+2025-04-18T10:09:26:         'Accept: application/json, text/plain, */*\r\n' +
+2025-04-18T10:09:26:         'Content-Type: application/x-www-form-urlencoded;charset=utf-8\r\n' +
+2025-04-18T10:09:26:         'User-Agent: axios/1.8.4\r\n' +
+2025-04-18T10:09:26:         'Content-Length: 8038\r\n' +
+2025-04-18T10:09:26:         'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+2025-04-18T10:09:26:         'Host: vkct.synology.me:5014\r\n' +
+2025-04-18T10:09:26:         'Connection: close\r\n' +
+2025-04-18T10:09:26:         '\r\n',
+2025-04-18T10:09:26:       _keepAliveTimeout: 0,
+2025-04-18T10:09:26:       _onPendingData: [Function: nop],
+2025-04-18T10:09:26:       agent: [Agent],
+2025-04-18T10:09:26:       socketPath: undefined,
+2025-04-18T10:09:26:       method: 'POST',
+2025-04-18T10:09:26:       maxHeaderSize: undefined,
+2025-04-18T10:09:26:       insecureHTTPParser: undefined,
+2025-04-18T10:09:26:       joinDuplicateHeaders: undefined,
+2025-04-18T10:09:26:       path: '/tts',
+2025-04-18T10:09:26:       _ended: false,
+2025-04-18T10:09:26:       res: null,
+2025-04-18T10:09:26:       aborted: false,
+2025-04-18T10:09:26:       timeoutCb: null,
+2025-04-18T10:09:26:       upgradeOrConnect: false,
+2025-04-18T10:09:26:       parser: null,
+2025-04-18T10:09:26:       maxHeadersCount: null,
+2025-04-18T10:09:26:       reusedSocket: false,
+2025-04-18T10:09:26:       host: 'vkct.synology.me',
+2025-04-18T10:09:26:       protocol: 'http:',
+2025-04-18T10:09:26:       _redirectable: [Circular *1],
+2025-04-18T10:09:26:       [Symbol(kCapture)]: false,
+2025-04-18T10:09:26:       [Symbol(kBytesWritten)]: 0,
+2025-04-18T10:09:26:       [Symbol(kNeedDrain)]: false,
+2025-04-18T10:09:26:       [Symbol(corked)]: 0,
+2025-04-18T10:09:26:       [Symbol(kOutHeaders)]: [Object: null prototype],
+2025-04-18T10:09:26:       [Symbol(errored)]: null,
+2025-04-18T10:09:26:       [Symbol(kHighWaterMark)]: 16384,
+2025-04-18T10:09:26:       [Symbol(kRejectNonStandardBodyWrites)]: false,
+2025-04-18T10:09:26:       [Symbol(kUniqueHeaders)]: null
+2025-04-18T10:09:26:     },
+2025-04-18T10:09:26:     _currentUrl: 'http://vkct.synology.me:5014/tts',
+2025-04-18T10:09:26:     _timeout: null,
+2025-04-18T10:09:26:     [Symbol(kCapture)]: false
+2025-04-18T10:09:26:   },
+2025-04-18T10:09:26:   cause: Error: read ECONNRESET
+2025-04-18T10:09:26:       at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {
+2025-04-18T10:09:26:     errno: -104,
+2025-04-18T10:09:26:     code: 'ECONNRESET',
+2025-04-18T10:09:26:     syscall: 'read'
+2025-04-18T10:09:26:   }
+2025-04-18T10:09:26: }
+2025-04-18T10:09:27: Lỗi khi sử dụng API aitoolseo.com: AxiosError: Request failed with status code 500
+2025-04-18T10:09:27:     at settle (file:///home/kct/viettruyen/node_modules/axios/lib/core/settle.js:19:12)
+2025-04-18T10:09:27:     at IncomingMessage.handleStreamEnd (file:///home/kct/viettruyen/node_modules/axios/lib/adapters/http.js:599:11)
+2025-04-18T10:09:27:     at IncomingMessage.emit (node:events:529:35)
+2025-04-18T10:09:27:     at endReadableNT (node:internal/streams/readable:1400:12)
+2025-04-18T10:09:27:     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-04-18T10:09:27:     at Axios.request (file:///home/kct/viettruyen/node_modules/axios/lib/core/Axios.js:45:41)
+2025-04-18T10:09:27:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-18T10:09:27:     at async generateAudio (file:///home/kct/viettruyen/dist/index.js:975:26)
+2025-04-18T10:09:27:     at async Timeout._onTimeout (file:///home/kct/viettruyen/dist/index.js:2848:29) {
+2025-04-18T10:09:27:   code: 'ERR_BAD_RESPONSE',
+2025-04-18T10:09:27:   config: {
+2025-04-18T10:09:27:     transitional: {
+2025-04-18T10:09:27:       silentJSONParsing: true,
+2025-04-18T10:09:27:       forcedJSONParsing: true,
+2025-04-18T10:09:27:       clarifyTimeoutError: false
+2025-04-18T10:09:27:     },
+2025-04-18T10:09:27:     adapter: [ 'xhr', 'http', 'fetch' ],
+2025-04-18T10:09:27:     transformRequest: [ [Function: transformRequest] ],
+2025-04-18T10:09:27:     transformResponse: [ [Function: transformResponse] ],
+2025-04-18T10:09:27:     timeout: 30000,
+2025-04-18T10:09:27:     xsrfCookieName: 'XSRF-TOKEN',
+2025-04-18T10:09:27:     xsrfHeaderName: 'X-XSRF-TOKEN',
+2025-04-18T10:09:27:     maxContentLength: -1,
+2025-04-18T10:09:27:     maxBodyLength: -1,
+2025-04-18T10:09:27:     env: { FormData: [Function [FormData]], Blob: [class Blob] },
+2025-04-18T10:09:27:     validateStatus: [Function: validateStatus],
+2025-04-18T10:09:27:     headers: Object [AxiosHeaders] {
+2025-04-18T10:09:27:       Accept: '*/*',
+2025-04-18T10:09:27:       'Content-Type': 'application/json',
+2025-04-18T10:09:27:       'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:137.0) Gecko/20100101 Firefox/137.0',
+2025-04-18T10:09:27:       'Accept-Language': 'vi,en-US;q=0.7,en;q=0.3',
+2025-04-18T10:09:27:       'Accept-Encoding': 'gzip, deflate, br, zstd',
+2025-04-18T10:09:27:       Referer: 'https://aitoolseo.com/voice-ads',
+2025-04-18T10:09:27:       Authorization: 'Bearer trinhnd19@gmail.com',
+2025-04-18T10:09:27:       Origin: 'https://aitoolseo.com',
+2025-04-18T10:09:27:       Connection: 'keep-alive',
+2025-04-18T10:09:27:       'Sec-Fetch-Dest': 'empty',
+2025-04-18T10:09:27:       'Sec-Fetch-Mode': 'cors',
+2025-04-18T10:09:27:       'Sec-Fetch-Site': 'same-origin',
+2025-04-18T10:09:27:       Priority: 'u=0',
+2025-04-18T10:09:27:       'Content-Length': '4361'
+2025-04-18T10:09:27:     },
+2025-04-18T10:09:27:     responseType: 'arraybuffer',
+2025-04-18T10:09:27:     method: 'post',
+2025-04-18T10:09:27:     url: 'https://aitoolseo.com/api/voice',
+2025-04-18T10:09:27:     data: `{"text":"Một buổi sáng mùa mưa, khi những đám mây xám xịt phủ kín bầu trời, Phúc - một cậu sinh viên đại học chuyên ngành kiến trúc, đang đi dạo quanh chợ quê. Chợ hôm nay vắng tanh, chỉ có vài gian hàng còn mở cửa, và mọi thứ đều ướt sũng vì cơn mưa dai dẳng từ đêm qua. Phúc, vốn là một người tò mò và hơi nhát gan, đang tìm kiếm những món đồ cổ lạ mắt để làm quà cho một người bạn. Khi bước qua một gian hàng bỏ trống, cậu tình cờ nhìn thấy một chiếc dù cũ kỹ nằm lăn lóc trên đất. Chiếc dù màu đen, gỗ cầm tay đã mọt, nhưng vải dù vẫn còn nguyên vẹn. Không hiểu sao, Phúc cảm thấy bị thu hút kỳ lạ bởi chiếc dù này. Cậu nhặt lên, mở ra và cảm thấy một luồng khí lạnh chạy dọc sống lưng.\\n\\n'Ủa, sao mà lạnh dữ vậy nè?' Phúc tự hỏi, rồi nhanh chóng gập dù lại. Đúng lúc đó, Cô Ba - một người phụ nữ lớn tuổi bán nước dừa, bước tới. 'Bộ cậu không biết đó là chiếc dù quỷ ám sao?' Cô Ba hỏi, giọng nghiêm nghị. Phúc nhìn bà, hơi ngạc nhiên: 'Dạ, chiếc dù này có chuyện gì vậy cô?' Cô Ba ngước nhìn trời, rồi thì thầm: 'Chiếc dù này từng thuộc về một người đàn ông trong làng, nhưng ông ấy mất tích bí ẩn trong một đêm bão lớn. Từ đó, ai cầm chiếc dù này đều gặp chuyện không may. Tui khuyên cậu nên bỏ nó lại đi.'\\n\\nPhúc nghe mà rùng mình, nhưng cậu không tin vào những lời đồn đại vô căn cứ. 'Cảm ơn cô, nhưng cháu nghĩ chắc không có gì đâu.' Phúc đáp, rồi tiếp tục cầm chiếc dù về nhà. Đêm đó, khi nằm trên giường, Phúc bắt đầu thấy những giấc mơ kỳ lạ. Cậu mơ thấy mình lạc vào một ngôi làng hoang vu, xung quanh là những bóng ma mờ ảo, và chiếc dù trong tay cậu phát ra ánh sáng ma quái.\\n\\nNhững ngày sau đó, Phúc liên tục gặp phải những hiện tượng khó giải thích. Đôi khi, cậu thấy bóng người thoáng qua cửa sổ, hay nghe tiếng thì thầm trong đêm. Cậu càng lúc càng lo lắng, và cuối cùng quyết định tìm đến Cô Ba để hỏi rõ hơn. 'Cháu thấy những giấc mơ kỳ lạ và những chuyện không thể giải thích được. Có khi nào chiếc dù này thực sự bị nguyền rủa không cô?' Phúc hỏi, giọng run run. Cô Ba nhìn cậu, thở dài: 'Cậu phải trả nó về nơi nó thuộc về. Chỉ có cách đó mới giải thoát được linh hồn chủ nhân.'\\n\\nVậy là Phúc quyết định lên đường, mang theo chiếc dù, đi tìm ngôi làng mà cậu từng thấy trong giấc mơ. Sau nhiều ngày tìm kiếm, cậu cuối cùng cũng tới được một ngôi làng bỏ hoang, nơi không có bóng dáng người sống. Cậu cảm nhận được không khí âm u, lạnh lẽo của nơi này, và linh cảm rằng đây chính là nơi chiếc dù thuộc về. Phúc lầm lũi bước đi giữa những ngôi nhà đổ nát, và cuối cùng cũng tìm thấy ngôi mộ của chủ nhân chiếc dù trong một góc khuất của nghĩa trang.\\n\\nPhúc đặt chiếc dù lên mộ, và bất ngờ, một cơn gió mạnh thổi qua, cuốn theo những chiếc lá khô lấp đầy bãi đất trống. Rồi, như một phép lạ, mọi thứ trở nên yên bình. Phúc cảm thấy nhẹ nhõm, như vừa trút bỏ được một gánh nặng lớn. Khi quay về, cậu cảm thấy mọi thứ đã trở lại bình thường, không còn những giấc mơ hay hiện tượng kỳ quái ám ảnh cậu nữa.\\n\\nTừ câu chuyện này, Phúc đã rút ra một bài học quý giá về lòng tham và lòng tốt. Đôi khi, thứ chúng ta tìm kiếm không hẳn là những vật chất hào nhoáng, mà là sự bình yên trong tâm hồn. Và sự bình yên đó chỉ có thể đạt được khi ta biết tôn trọng những gì thuộc về người khác, và biết đặt lòng tốt lên trên mọi thứ.","voice_name":"vi-VN-NamMinhNeural","speed":1,"userId":2}`,
+2025-04-18T10:09:27:     allowAbsoluteUrls: true
+2025-04-18T10:09:27:   },
+2025-04-18T10:09:27:   request: <ref *1> ClientRequest {
+2025-04-18T10:09:27:     _events: [Object: null prototype] {
+2025-04-18T10:09:27:       abort: [Function (anonymous)],
+2025-04-18T10:09:27:       aborted: [Function (anonymous)],
+2025-04-18T10:09:27:       connect: [Function (anonymous)],
+2025-04-18T10:09:27:       error: [Function (anonymous)],
+2025-04-18T10:09:27:       socket: [Function (anonymous)],
+2025-04-18T10:09:27:       timeout: [Function (anonymous)],
+2025-04-18T10:09:27:       finish: [Function: requestOnFinish]
+2025-04-18T10:09:27:     },
+2025-04-18T10:09:27:     _eventsCount: 7,
+2025-04-18T10:09:27:     _maxListeners: undefined,
+2025-04-18T10:09:27:     outputData: [],
+2025-04-18T10:09:27:     outputSize: 0,
+2025-04-18T10:09:27:     writable: true,
+2025-04-18T10:09:27:     destroyed: true,
+2025-04-18T10:09:27:     _last: true,
+2025-04-18T10:09:27:     chunkedEncoding: false,
+2025-04-18T10:09:27:     shouldKeepAlive: true,
+2025-04-18T10:09:27:     maxRequestsOnConnectionReached: false,
+2025-04-18T10:09:27:     _defaultKeepAlive: true,
+2025-04-18T10:09:27:     useChunkedEncodingByDefault: true,
+2025-04-18T10:09:27:     sendDate: false,
+2025-04-18T10:09:27:     _removedConnection: false,
+2025-04-18T10:09:27:     _removedContLen: false,
+2025-04-18T10:09:27:     _removedTE: false,
+2025-04-18T10:09:27:     strictContentLength: false,
+2025-04-18T10:09:27:     _contentLength: '4361',
+2025-04-18T10:09:27:     _hasBody: true,
+2025-04-18T10:09:27:     _trailer: '',
+2025-04-18T10:09:27:     finished: true,
+2025-04-18T10:09:27:     _headerSent: true,
+2025-04-18T10:09:27:     _closed: true,
+2025-04-18T10:09:27:     socket: TLSSocket {
+2025-04-18T10:09:27:       _tlsOptions: [Object],
+2025-04-18T10:09:27:       _secureEstablished: true,
+2025-04-18T10:09:27:       _securePending: false,
+2025-04-18T10:09:27:       _newSessionPending: false,
+2025-04-18T10:09:27:       _controlReleased: true,
+2025-04-18T10:09:27:       secureConnecting: false,
+2025-04-18T10:09:27:       _SNICallback: null,
+2025-04-18T10:09:27:       servername: 'aitoolseo.com',
+2025-04-18T10:09:27:       alpnProtocol: false,
+2025-04-18T10:09:27:       authorized: true,
+2025-04-18T10:09:27:       authorizationError: null,
+2025-04-18T10:09:27:       encrypted: true,
+2025-04-18T10:09:27:       _events: [Object: null prototype],
+2025-04-18T10:09:27:       _eventsCount: 8,
+2025-04-18T10:09:27:       connecting: false,
+2025-04-18T10:09:27:       _hadError: false,
+2025-04-18T10:09:27:       _parent: null,
+2025-04-18T10:09:27:       _host: 'aitoolseo.com',
+2025-04-18T10:09:27:       _closeAfterHandlingError: false,
+2025-04-18T10:09:27:       _readableState: [ReadableState],
+2025-04-18T10:09:27:       _maxListeners: undefined,
+2025-04-18T10:09:27:       _writableState: [WritableState],
+2025-04-18T10:09:27:       allowHalfOpen: false,
+2025-04-18T10:09:27:       _sockname: null,
+2025-04-18T10:09:27:       _pendingData: null,
+2025-04-18T10:09:27:       _pendingEncoding: '',
+2025-04-18T10:09:27:       server: undefined,
+2025-04-18T10:09:27:       _server: null,
+2025-04-18T10:09:27:       ssl: null,
+2025-04-18T10:09:27:       _requestCert: true,
+2025-04-18T10:09:27:       _rejectUnauthorized: true,
+2025-04-18T10:09:27:       parser: null,
+2025-04-18T10:09:27:       _httpMessage: [Circular *1],
+2025-04-18T10:09:27:       timeout: 30000,
+2025-04-18T10:09:27:       [Symbol(alpncallback)]: null,
+2025-04-18T10:09:27:       [Symbol(res)]: [TLSWrap],
+2025-04-18T10:09:27:       [Symbol(verified)]: true,
+2025-04-18T10:09:27:       [Symbol(pendingSession)]: null,
+2025-04-18T10:09:27:       [Symbol(async_id_symbol)]: 14354,
+2025-04-18T10:09:27:       [Symbol(kHandle)]: null,
+2025-04-18T10:09:27:       [Symbol(lastWriteQueueSize)]: 0,
+2025-04-18T10:09:27:       [Symbol(timeout)]: Timeout {
+2025-04-18T10:09:27:         _idleTimeout: -1,
+2025-04-18T10:09:27:         _idlePrev: null,
+2025-04-18T10:09:27:         _idleNext: null,
+2025-04-18T10:09:27:         _idleStart: 613475030,
+2025-04-18T10:09:27:         _onTimeout: null,
+2025-04-18T10:09:27:         _timerArgs: undefined,
+2025-04-18T10:09:27:         _repeat: null,
+2025-04-18T10:09:27:         _destroyed: true,
+2025-04-18T10:09:27:         [Symbol(refed)]: false,
+2025-04-18T10:09:27:         [Symbol(kHasPrimitive)]: false,
+2025-04-18T10:09:27:         [Symbol(asyncId)]: 14362,
+2025-04-18T10:09:27:         [Symbol(triggerId)]: 14357
+2025-04-18T10:09:27:       },
+2025-04-18T10:09:27:       [Symbol(kBuffer)]: null,
+2025-04-18T10:09:27:       [Symbol(kBufferCb)]: null,
+2025-04-18T10:09:27:       [Symbol(kBufferGen)]: null,
+2025-04-18T10:09:27:       [Symbol(kCapture)]: false,
+2025-04-18T10:09:27:       [Symbol(kSetNoDelay)]: false,
+2025-04-18T10:09:27:       [Symbol(kSetKeepAlive)]: true,
+2025-04-18T10:09:27:       [Symbol(kSetKeepAliveInitialDelay)]: 60,
+2025-04-18T10:09:27:       [Symbol(kBytesRead)]: 686,
+2025-04-18T10:09:27:       [Symbol(kBytesWritten)]: 4888,
+2025-04-18T10:09:27:       [Symbol(connect-options)]: [Object]
+2025-04-18T10:09:27:     },
+2025-04-18T10:09:27:     _header: 'POST /api/voice HTTP/1.1\r\n' +
+2025-04-18T10:09:27:       'Accept: */*\r\n' +
+2025-04-18T10:09:27:       'Content-Type: application/json\r\n' +
+2025-04-18T10:09:27:       'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:137.0) Gecko/20100101 Firefox/137.0\r\n' +
+2025-04-18T10:09:27:       'Accept-Language: vi,en-US;q=0.7,en;q=0.3\r\n' +
+2025-04-18T10:09:27:       'Accept-Encoding: gzip, deflate, br, zstd\r\n' +
+2025-04-18T10:09:27:       'Referer: https://aitoolseo.com/voice-ads\r\n' +
+2025-04-18T10:09:27:       'Authorization: Bearer trinhnd19@gmail.com\r\n' +
+2025-04-18T10:09:27:       'Origin: https://aitoolseo.com\r\n' +
+2025-04-18T10:09:27:       'Connection: keep-alive\r\n' +
+2025-04-18T10:09:27:       'Sec-Fetch-Dest: empty\r\n' +
+2025-04-18T10:09:27:       'Sec-Fetch-Mode: cors\r\n' +
+2025-04-18T10:09:27:       'Sec-Fetch-Site: same-origin\r\n' +
+2025-04-18T10:09:27:       'Priority: u=0\r\n' +
+2025-04-18T10:09:27:       'Content-Length: 4361\r\n' +
+2025-04-18T10:09:27:       'Host: aitoolseo.com\r\n' +
+2025-04-18T10:09:27:       '\r\n',
+2025-04-18T10:09:27:     _keepAliveTimeout: 0,
+2025-04-18T10:09:27:     _onPendingData: [Function: nop],
+2025-04-18T10:09:27:     agent: Agent {
+2025-04-18T10:09:27:       _events: [Object: null prototype],
+2025-04-18T10:09:27:       _eventsCount: 2,
+2025-04-18T10:09:27:       _maxListeners: undefined,
+2025-04-18T10:09:27:       defaultPort: 443,
+2025-04-18T10:09:27:       protocol: 'https:',
+2025-04-18T10:09:27:       options: [Object: null prototype],
+2025-04-18T10:09:27:       requests: [Object: null prototype] {},
+2025-04-18T10:09:27:       sockets: [Object: null prototype],
+2025-04-18T10:09:27:       freeSockets: [Object: null prototype] {},
+2025-04-18T10:09:27:       keepAliveMsecs: 1000,
+2025-04-18T10:09:27:       keepAlive: false,
+2025-04-18T10:09:27:       maxSockets: Infinity,
+2025-04-18T10:09:27:       maxFreeSockets: 256,
+2025-04-18T10:09:27:       scheduling: 'lifo',
+2025-04-18T10:09:27:       maxTotalSockets: Infinity,
+2025-04-18T10:09:27:       totalSocketCount: 1,
+2025-04-18T10:09:27:       maxCachedSessions: 100,
+2025-04-18T10:09:27:       _sessionCache: [Object],
+2025-04-18T10:09:27:       [Symbol(kCapture)]: false
+2025-04-18T10:09:27:     },
+2025-04-18T10:09:27:     socketPath: undefined,
+2025-04-18T10:09:27:     method: 'POST',
+2025-04-18T10:09:27:     maxHeaderSize: undefined,
+2025-04-18T10:09:27:     insecureHTTPParser: undefined,
+2025-04-18T10:09:27:     joinDuplicateHeaders: undefined,
+2025-04-18T10:09:27:     path: '/api/voice',
+2025-04-18T10:09:27:     _ended: true,
+2025-04-18T10:09:27:     res: IncomingMessage {
+2025-04-18T10:09:27:       _readableState: [ReadableState],
+2025-04-18T10:09:27:       _events: [Object: null prototype],
+2025-04-18T10:09:27:       _eventsCount: 4,
+2025-04-18T10:09:27:       _maxListeners: undefined,
+2025-04-18T10:09:27:       socket: null,
+2025-04-18T10:09:27:       httpVersionMajor: 1,
+2025-04-18T10:09:27:       httpVersionMinor: 1,
+2025-04-18T10:09:27:       httpVersion: '1.1',
+2025-04-18T10:09:27:       complete: true,
+2025-04-18T10:09:27:       rawHeaders: [Array],
+2025-04-18T10:09:27:       rawTrailers: [],
+2025-04-18T10:09:27:       joinDuplicateHeaders: undefined,
+2025-04-18T10:09:27:       aborted: false,
+2025-04-18T10:09:27:       upgrade: false,
+2025-04-18T10:09:27:       url: '',
+2025-04-18T10:09:27:       method: null,
+2025-04-18T10:09:27:       statusCode: 500,
+2025-04-18T10:09:27:       statusMessage: 'Internal Server Error',
+2025-04-18T10:09:27:       client: [TLSSocket],
+2025-04-18T10:09:27:       _consuming: false,
+2025-04-18T10:09:27:       _dumped: false,
+2025-04-18T10:09:27:       req: [Circular *1],
+2025-04-18T10:09:27:       responseUrl: 'https://aitoolseo.com/api/voice',
+2025-04-18T10:09:27:       redirects: [],
+2025-04-18T10:09:27:       [Symbol(kCapture)]: false,
+2025-04-18T10:09:27:       [Symbol(kHeaders)]: [Object],
+2025-04-18T10:09:27:       [Symbol(kHeadersCount)]: 20,
+2025-04-18T10:09:27:       [Symbol(kTrailers)]: null,
+2025-04-18T10:09:27:       [Symbol(kTrailersCount)]: 0
+2025-04-18T10:09:27:     },
+2025-04-18T10:09:27:     aborted: false,
+2025-04-18T10:09:27:     timeoutCb: null,
+2025-04-18T10:09:27:     upgradeOrConnect: false,
+2025-04-18T10:09:27:     parser: null,
+2025-04-18T10:09:27:     maxHeadersCount: null,
+2025-04-18T10:09:27:     reusedSocket: false,
+2025-04-18T10:09:27:     host: 'aitoolseo.com',
+2025-04-18T10:09:27:     protocol: 'https:',
+2025-04-18T10:09:27:     _redirectable: Writable {
+2025-04-18T10:09:27:       _writableState: [WritableState],
+2025-04-18T10:09:27:       _events: [Object: null prototype],
+2025-04-18T10:09:27:       _eventsCount: 3,
+2025-04-18T10:09:27:       _maxListeners: undefined,
+2025-04-18T10:09:27:       _options: [Object],
+2025-04-18T10:09:27:       _ended: true,
+2025-04-18T10:09:27:       _ending: true,
+2025-04-18T10:09:27:       _redirectCount: 0,
+2025-04-18T10:09:27:       _redirects: [],
+2025-04-18T10:09:27:       _requestBodyLength: 4361,
+2025-04-18T10:09:27:       _requestBodyBuffers: [],
+2025-04-18T10:09:27:       _onNativeResponse: [Function (anonymous)],
+2025-04-18T10:09:27:       _currentRequest: [Circular *1],
+2025-04-18T10:09:27:       _currentUrl: 'https://aitoolseo.com/api/voice',
+2025-04-18T10:09:27:       _timeout: null,
+2025-04-18T10:09:27:       [Symbol(kCapture)]: false
+2025-04-18T10:09:27:     },
+2025-04-18T10:09:27:     [Symbol(kCapture)]: false,
+2025-04-18T10:09:27:     [Symbol(kBytesWritten)]: 0,
+2025-04-18T10:09:27:     [Symbol(kNeedDrain)]: false,
+2025-04-18T10:09:27:     [Symbol(corked)]: 0,
+2025-04-18T10:09:27:     [Symbol(kOutHeaders)]: [Object: null prototype] {
+2025-04-18T10:09:27:       accept: [Array],
+2025-04-18T10:09:27:       'content-type': [Array],
+2025-04-18T10:09:27:       'user-agent': [Array],
+2025-04-18T10:09:27:       'accept-language': [Array],
+2025-04-18T10:09:27:       'accept-encoding': [Array],
+2025-04-18T10:09:27:       referer: [Array],
+2025-04-18T10:09:27:       authorization: [Array],
+2025-04-18T10:09:27:       origin: [Array],
+2025-04-18T10:09:27:       connection: [Array],
+2025-04-18T10:09:27:       'sec-fetch-dest': [Array],
+2025-04-18T10:09:27:       'sec-fetch-mode': [Array],
+2025-04-18T10:09:27:       'sec-fetch-site': [Array],
+2025-04-18T10:09:27:       priority: [Array],
+2025-04-18T10:09:27:       'content-length': [Array],
+2025-04-18T10:09:27:       host: [Array]
+2025-04-18T10:09:27:     },
+2025-04-18T10:09:27:     [Symbol(errored)]: null,
+2025-04-18T10:09:27:     [Symbol(kHighWaterMark)]: 16384,
+2025-04-18T10:09:27:     [Symbol(kRejectNonStandardBodyWrites)]: false,
+2025-04-18T10:09:27:     [Symbol(kUniqueHeaders)]: null
+2025-04-18T10:09:27:   },
+2025-04-18T10:09:27:   response: {
+2025-04-18T10:09:27:     status: 500,
+2025-04-18T10:09:27:     statusText: 'Internal Server Error',
+2025-04-18T10:09:27:     headers: Object [AxiosHeaders] {
+2025-04-18T10:09:27:       server: 'nginx/1.24.0 (Ubuntu)',
+2025-04-18T10:09:27:       date: 'Fri, 18 Apr 2025 09:09:27 GMT',
+2025-04-18T10:09:27:       'content-type': 'application/json; charset=utf-8',
+2025-04-18T10:09:27:       'content-length': '281',
+2025-04-18T10:09:27:       connection: 'keep-alive',
+2025-04-18T10:09:27:       'x-powered-by': 'Express',
+2025-04-18T10:09:27:       'access-control-allow-origin': '*',
+2025-04-18T10:09:27:       'access-control-allow-methods': 'GET,PUT,POST,DELETE,PATCH',
+2025-04-18T10:09:27:       'access-control-allow-headers': 'Content-Type,user-id',
+2025-04-18T10:09:27:       etag: 'W/"119-4IwYCAEiZ/13pYnc4mL85yvTtlM"'
+2025-04-18T10:09:27:     },
+2025-04-18T10:09:27:     config: {
+2025-04-18T10:09:27:       transitional: [Object],
+2025-04-18T10:09:27:       adapter: [Array],
+2025-04-18T10:09:27:       transformRequest: [Array],
+2025-04-18T10:09:27:       transformResponse: [Array],
+2025-04-18T10:09:27:       timeout: 30000,
+2025-04-18T10:09:27:       xsrfCookieName: 'XSRF-TOKEN',
+2025-04-18T10:09:27:       xsrfHeaderName: 'X-XSRF-TOKEN',
+2025-04-18T10:09:27:       maxContentLength: -1,
+2025-04-18T10:09:27:       maxBodyLength: -1,
+2025-04-18T10:09:27:       env: [Object],
+2025-04-18T10:09:27:       validateStatus: [Function: validateStatus],
+2025-04-18T10:09:27:       headers: [Object [AxiosHeaders]],
+2025-04-18T10:09:27:       responseType: 'arraybuffer',
+2025-04-18T10:09:27:       method: 'post',
+2025-04-18T10:09:27:       url: 'https://aitoolseo.com/api/voice',
+2025-04-18T10:09:27:       data: `{"text":"Một buổi sáng mùa mưa, khi những đám mây xám xịt phủ kín bầu trời, Phúc - một cậu sinh viên đại học chuyên ngành kiến trúc, đang đi dạo quanh chợ quê. Chợ hôm nay vắng tanh, chỉ có vài gian hàng còn mở cửa, và mọi thứ đều ướt sũng vì cơn mưa dai dẳng từ đêm qua. Phúc, vốn là một người tò mò và hơi nhát gan, đang tìm kiếm những món đồ cổ lạ mắt để làm quà cho một người bạn. Khi bước qua một gian hàng bỏ trống, cậu tình cờ nhìn thấy một chiếc dù cũ kỹ nằm lăn lóc trên đất. Chiếc dù màu đen, gỗ cầm tay đã mọt, nhưng vải dù vẫn còn nguyên vẹn. Không hiểu sao, Phúc cảm thấy bị thu hút kỳ lạ bởi chiếc dù này. Cậu nhặt lên, mở ra và cảm thấy một luồng khí lạnh chạy dọc sống lưng.\\n\\n'Ủa, sao mà lạnh dữ vậy nè?' Phúc tự hỏi, rồi nhanh chóng gập dù lại. Đúng lúc đó, Cô Ba - một người phụ nữ lớn tuổi bán nước dừa, bước tới. 'Bộ cậu không biết đó là chiếc dù quỷ ám sao?' Cô Ba hỏi, giọng nghiêm nghị. Phúc nhìn bà, hơi ngạc nhiên: 'Dạ, chiếc dù này có chuyện gì vậy cô?' Cô Ba ngước nhìn trời, rồi thì thầm: 'Chiếc dù này từng thuộc về một người đàn ông trong làng, nhưng ông ấy mất tích bí ẩn trong một đêm bão lớn. Từ đó, ai cầm chiếc dù này đều gặp chuyện không may. Tui khuyên cậu nên bỏ nó lại đi.'\\n\\nPhúc nghe mà rùng mình, nhưng cậu không tin vào những lời đồn đại vô căn cứ. 'Cảm ơn cô, nhưng cháu nghĩ chắc không có gì đâu.' Phúc đáp, rồi tiếp tục cầm chiếc dù về nhà. Đêm đó, khi nằm trên giường, Phúc bắt đầu thấy những giấc mơ kỳ lạ. Cậu mơ thấy mình lạc vào một ngôi làng hoang vu, xung quanh là những bóng ma mờ ảo, và chiếc dù trong tay cậu phát ra ánh sáng ma quái.\\n\\nNhững ngày sau đó, Phúc liên tục gặp phải những hiện tượng khó giải thích. Đôi khi, cậu thấy bóng người thoáng qua cửa sổ, hay nghe tiếng thì thầm trong đêm. Cậu càng lúc càng lo lắng, và cuối cùng quyết định tìm đến Cô Ba để hỏi rõ hơn. 'Cháu thấy những giấc mơ kỳ lạ và những chuyện không thể giải thích được. Có khi nào chiếc dù này thực sự bị nguyền rủa không cô?' Phúc hỏi, giọng run run. Cô Ba nhìn cậu, thở dài: 'Cậu phải trả nó về nơi nó thuộc về. Chỉ có cách đó mới giải thoát được linh hồn chủ nhân.'\\n\\nVậy là Phúc quyết định lên đường, mang theo chiếc dù, đi tìm ngôi làng mà cậu từng thấy trong giấc mơ. Sau nhiều ngày tìm kiếm, cậu cuối cùng cũng tới được một ngôi làng bỏ hoang, nơi không có bóng dáng người sống. Cậu cảm nhận được không khí âm u, lạnh lẽo của nơi này, và linh cảm rằng đây chính là nơi chiếc dù thuộc về. Phúc lầm lũi bước đi giữa những ngôi nhà đổ nát, và cuối cùng cũng tìm thấy ngôi mộ của chủ nhân chiếc dù trong một góc khuất của nghĩa trang.\\n\\nPhúc đặt chiếc dù lên mộ, và bất ngờ, một cơn gió mạnh thổi qua, cuốn theo những chiếc lá khô lấp đầy bãi đất trống. Rồi, như một phép lạ, mọi thứ trở nên yên bình. Phúc cảm thấy nhẹ nhõm, như vừa trút bỏ được một gánh nặng lớn. Khi quay về, cậu cảm thấy mọi thứ đã trở lại bình thường, không còn những giấc mơ hay hiện tượng kỳ quái ám ảnh cậu nữa.\\n\\nTừ câu chuyện này, Phúc đã rút ra một bài học quý giá về lòng tham và lòng tốt. Đôi khi, thứ chúng ta tìm kiếm không hẳn là những vật chất hào nhoáng, mà là sự bình yên trong tâm hồn. Và sự bình yên đó chỉ có thể đạt được khi ta biết tôn trọng những gì thuộc về người khác, và biết đặt lòng tốt lên trên mọi thứ.","voice_name":"vi-VN-NamMinhNeural","speed":1,"userId":2}`,
+2025-04-18T10:09:27:       allowAbsoluteUrls: true
+2025-04-18T10:09:27:     },
+2025-04-18T10:09:27:     request: <ref *1> ClientRequest {
+2025-04-18T10:09:27:       _events: [Object: null prototype],
+2025-04-18T10:09:28:       _eventsCount: 7,
+2025-04-18T10:09:28:       _maxListeners: undefined,
+2025-04-18T10:09:28:       outputData: [],
+2025-04-18T10:09:28:       outputSize: 0,
+2025-04-18T10:09:28:       writable: true,
+2025-04-18T10:09:28:       destroyed: true,
+2025-04-18T10:09:28:       _last: true,
+2025-04-18T10:09:28:       chunkedEncoding: false,
+2025-04-18T10:09:28:       shouldKeepAlive: true,
+2025-04-18T10:09:28:       maxRequestsOnConnectionReached: false,
+2025-04-18T10:09:28:       _defaultKeepAlive: true,
+2025-04-18T10:09:28:       useChunkedEncodingByDefault: true,
+2025-04-18T10:09:28:       sendDate: false,
+2025-04-18T10:09:28:       _removedConnection: false,
+2025-04-18T10:09:28:       _removedContLen: false,
+2025-04-18T10:09:28:       _removedTE: false,
+2025-04-18T10:09:28:       strictContentLength: false,
+2025-04-18T10:09:28:       _contentLength: '4361',
+2025-04-18T10:09:28:       _hasBody: true,
+2025-04-18T10:09:28:       _trailer: '',
+2025-04-18T10:09:28:       finished: true,
+2025-04-18T10:09:28:       _headerSent: true,
+2025-04-18T10:09:28:       _closed: true,
+2025-04-18T10:09:28:       socket: [TLSSocket],
+2025-04-18T10:09:28:       _header: 'POST /api/voice HTTP/1.1\r\n' +
+2025-04-18T10:09:28:         'Accept: */*\r\n' +
+2025-04-18T10:09:28:         'Content-Type: application/json\r\n' +
+2025-04-18T10:09:28:         'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:137.0) Gecko/20100101 Firefox/137.0\r\n' +
+2025-04-18T10:09:28:         'Accept-Language: vi,en-US;q=0.7,en;q=0.3\r\n' +
+2025-04-18T10:09:28:         'Accept-Encoding: gzip, deflate, br, zstd\r\n' +
+2025-04-18T10:09:28:         'Referer: https://aitoolseo.com/voice-ads\r\n' +
+2025-04-18T10:09:28:         'Authorization: Bearer trinhnd19@gmail.com\r\n' +
+2025-04-18T10:09:28:         'Origin: https://aitoolseo.com\r\n' +
+2025-04-18T10:09:28:         'Connection: keep-alive\r\n' +
+2025-04-18T10:09:28:         'Sec-Fetch-Dest: empty\r\n' +
+2025-04-18T10:09:28:         'Sec-Fetch-Mode: cors\r\n' +
+2025-04-18T10:09:28:         'Sec-Fetch-Site: same-origin\r\n' +
+2025-04-18T10:09:28:         'Priority: u=0\r\n' +
+2025-04-18T10:09:28:         'Content-Length: 4361\r\n' +
+2025-04-18T10:09:28:         'Host: aitoolseo.com\r\n' +
+2025-04-18T10:09:28:         '\r\n',
+2025-04-18T10:09:28:       _keepAliveTimeout: 0,
+2025-04-18T10:09:28:       _onPendingData: [Function: nop],
+2025-04-18T10:09:28:       agent: [Agent],
+2025-04-18T10:09:28:       socketPath: undefined,
+2025-04-18T10:09:28:       method: 'POST',
+2025-04-18T10:09:28:       maxHeaderSize: undefined,
+2025-04-18T10:09:28:       insecureHTTPParser: undefined,
+2025-04-18T10:09:28:       joinDuplicateHeaders: undefined,
+2025-04-18T10:09:28:       path: '/api/voice',
+2025-04-18T10:09:28:       _ended: true,
+2025-04-18T10:09:28:       res: [IncomingMessage],
+2025-04-18T10:09:28:       aborted: false,
+2025-04-18T10:09:28:       timeoutCb: null,
+2025-04-18T10:09:28:       upgradeOrConnect: false,
+2025-04-18T10:09:28:       parser: null,
+2025-04-18T10:09:28:       maxHeadersCount: null,
+2025-04-18T10:09:28:       reusedSocket: false,
+2025-04-18T10:09:28:       host: 'aitoolseo.com',
+2025-04-18T10:09:28:       protocol: 'https:',
+2025-04-18T10:09:28:       _redirectable: [Writable],
+2025-04-18T10:09:28:       [Symbol(kCapture)]: false,
+2025-04-18T10:09:28:       [Symbol(kBytesWritten)]: 0,
+2025-04-18T10:09:28:       [Symbol(kNeedDrain)]: false,
+2025-04-18T10:09:28:       [Symbol(corked)]: 0,
+2025-04-18T10:09:28:       [Symbol(kOutHeaders)]: [Object: null prototype],
+2025-04-18T10:09:28:       [Symbol(errored)]: null,
+2025-04-18T10:09:28:       [Symbol(kHighWaterMark)]: 16384,
+2025-04-18T10:09:28:       [Symbol(kRejectNonStandardBodyWrites)]: false,
+2025-04-18T10:09:28:       [Symbol(kUniqueHeaders)]: null
+2025-04-18T10:09:28:     },
+2025-04-18T10:09:28:     data: <Buffer 7b 22 65 72 72 6f 72 22 3a 22 46 61 69 6c 65 64 20 74 6f 20 67 65 6e 65 72 61 74 65 20 61 75 64 69 6f 22 2c 22 64 65 74 61 69 6c 73 22 3a 22 54 54 53 ... 231 more bytes>
+2025-04-18T10:09:28:   },
+2025-04-18T10:09:28:   status: 500
+2025-04-18T10:09:28: }
+2025-05-13T18:55:47: 6:55:47 PM [vite] Pre-transform error: Failed to load url /src/main.tsx?v=rcDOnAG5sSpI6XH17Wbjh (resolved id: /src/main.tsx?v=rcDOnAG5sSpI6XH17Wbjh). Does the file exist?
+2025-05-13T18:55:57: 6:55:57 PM [vite] Pre-transform error: Failed to load url /src/main.tsx?v=-L-0v5hh0sk00vlO5XHnc (resolved id: /src/main.tsx?v=-L-0v5hh0sk00vlO5XHnc). Does the file exist?
+2025-05-13T18:56:26: 6:56:26 PM [vite] Pre-transform error: Failed to load url /src/main.tsx?v=fRlxm-Q3TZ8DIMQhoTc_V (resolved id: /src/main.tsx?v=fRlxm-Q3TZ8DIMQhoTc_V). Does the file exist?

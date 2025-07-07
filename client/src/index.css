@@ -1,0 +1,350 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* PWA - Add to Home Screen notice cho iOS */
+#add-to-home-screen {
+  position: fixed;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+}
+
+.pwa-instruction {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 14px 20px;
+  border-radius: 10px;
+  max-width: 90%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  backdrop-filter: blur(5px);
+}
+
+.pwa-instruction p {
+  margin: 0 0 10px 0;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.pwa-share-icon {
+  display: inline-block;
+  transform: translateY(-2px);
+}
+
+#close-pwa-instruction {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  margin-top: 8px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+#close-pwa-instruction:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* PWA - Tối ưu trải nghiệm trên màn hình toàn bộ */
+@media (display-mode: standalone) {
+  body {
+    /* Loại bỏ viền trắng trên iOS */
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+  
+  /* Màu sắc tuỳ chỉnh cho mệnh mộc - Đại Lâm Mộc */
+  :root {
+    --moc-primary: #38B48B;    /* Xanh lục nhạt */
+    --moc-secondary: #2A9D8F;  /* Xanh lục đậm */
+    --moc-accent: #73C6B6;     /* Xanh lục nhạt */
+    --moc-dark: #0E3B43;       /* Xanh lục thẫm */
+    --moc-light: #E0F4EF;      /* Xanh nhạt */
+    --moc-highlight: #4FC978;  /* Xanh lá cây */
+    --moc-contrast: #F9C74F;   /* Vàng - màu tương sinh */
+    --text-light: #E9F5F0;     /* Văn bản sáng */
+  }
+}
+
+/* Fullscreen loading overlay */
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  backdrop-filter: blur(3px);
+}
+
+/* Pulse animation for loading */
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.8;
+    box-shadow: 0 0 0 0 rgba(56, 180, 139, 0.7);
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.5;
+    box-shadow: 0 0 0 15px rgba(56, 180, 139, 0.2);
+  }
+  100% {
+    transform: scale(0.8);
+    opacity: 0.8;
+    box-shadow: 0 0 0 0 rgba(56, 180, 139, 0);
+  }
+}
+
+@keyframes pulse-dot {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.7;
+    box-shadow: 0 0 0 0 rgba(79, 201, 120, 0.7);
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+    box-shadow: 0 0 0 8px rgba(79, 201, 120, 0.3);
+  }
+  100% {
+    transform: scale(0.8);
+    opacity: 0.7;
+    box-shadow: 0 0 0 0 rgba(79, 201, 120, 0);
+  }
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px 2px rgba(56, 180, 139, 0.5),
+                0 0 10px 5px rgba(56, 180, 139, 0.3),
+                0 0 15px 10px rgba(56, 180, 139, 0.1);
+  }
+  50% {
+    box-shadow: 0 0 10px 5px rgba(56, 180, 139, 0.7),
+                0 0 20px 10px rgba(56, 180, 139, 0.5),
+                0 0 30px 15px rgba(56, 180, 139, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 5px 2px rgba(56, 180, 139, 0.5),
+                0 0 10px 5px rgba(56, 180, 139, 0.3),
+                0 0 15px 10px rgba(56, 180, 139, 0.1);
+  }
+}
+
+.spinner {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spinner::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: var(--moc-accent);
+  opacity: 0.7;
+  animation: pulse-ring 2s cubic-bezier(0.215, 0.61, 0.355, 1) infinite, 
+             glow 2s ease-in-out infinite;
+}
+
+.spinner::after {
+  content: '';
+  position: absolute;
+  width: 70%;
+  height: 70%;
+  border-radius: 50%;
+  background-color: var(--moc-highlight);
+  opacity: 0.9;
+  animation: pulse-dot 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.5s infinite;
+}
+
+.spinner-moc::before {
+  background-color: var(--moc-accent);
+}
+
+.spinner-moc::after {
+  background-color: var(--moc-highlight);
+}
+
+.spinner-sm {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.spinner-md {
+  width: 3rem;
+  height: 3rem;
+}
+
+.spinner-lg {
+  width: 5rem;
+  height: 5rem;
+}
+
+/* Progress bar animation */
+.progress-step {
+  transition: all 0.3s ease;
+}
+
+.progress-step:hover {
+  transform: translateY(-2px);
+}
+
+/* Content transition */
+.step-content {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Card hover effects */
+.card-hover-effect {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-hover-effect:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+}
+
+/* Button effects */
+.btn-glow {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-glow:after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.1) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: rotate(30deg);
+  transition: transform 0.5s ease;
+}
+
+.btn-glow:hover:after {
+  transform: rotate(30deg) translate(100%, 100%);
+}
+
+/* Lớp màu sắc cho mệnh mộc */
+.bg-moc-dark {
+  background-color: var(--moc-dark);
+}
+
+.bg-moc-primary {
+  background-color: var(--moc-primary);
+}
+
+.bg-moc-secondary {
+  background-color: var(--moc-secondary);
+}
+
+.bg-moc-accent {
+  background-color: var(--moc-accent);
+}
+
+.bg-moc-highlight {
+  background-color: var(--moc-highlight);
+}
+
+.text-moc-light {
+  color: var(--text-light);
+}
+
+.text-moc-accent {
+  color: var(--moc-accent);
+}
+
+.text-moc-highlight {
+  color: var(--moc-highlight);
+}
+
+.text-moc-contrast {
+  color: var(--moc-contrast);
+}
+
+.border-moc-accent {
+  border-color: var(--moc-accent);
+}
+
+.border-moc-highlight {
+  border-color: var(--moc-highlight);
+}
+
+/* Gradient backgrounds */
+.bg-moc-gradient {
+  background: linear-gradient(135deg, var(--moc-dark) 0%, var(--moc-primary) 100%);
+}
+
+.bg-moc-gradient-light {
+  background: linear-gradient(135deg, var(--moc-primary) 0%, var(--moc-accent) 100%);
+}
+
+/* Nút phong cách mệnh mộc */
+.btn-moc {
+  background-color: var(--moc-primary);
+  color: var(--text-light);
+  border: 1px solid var(--moc-secondary);
+  transition: all 0.3s ease;
+}
+
+.btn-moc:hover {
+  background-color: var(--moc-secondary);
+  border-color: var(--moc-highlight);
+  box-shadow: 0 0 10px rgba(56, 180, 139, 0.5);
+}
+
+/* Card phong cách mệnh mộc */
+.card-moc {
+  background-color: rgba(14, 59, 67, 0.7);
+  border: 1px solid var(--moc-primary);
+  box-shadow: 0 4px 12px rgba(56, 180, 139, 0.2);
+}
+
+/* Văn bản nổi bật */
+.text-shadow-light {
+  text-shadow: 0 0 5px rgba(233, 245, 240, 0.8);
+}
+
+.gradient-text-moc {
+  background: linear-gradient(90deg, var(--moc-accent) 0%, var(--moc-highlight) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}

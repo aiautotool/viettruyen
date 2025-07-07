@@ -1,0 +1,1 @@
+import EdgeTTSNode from "edge-tts-node"; const { MsEdgeTTS } = EdgeTTSNode; const tts = new MsEdgeTTS({}); console.log("Methods:", Object.getOwnPropertyNames(MsEdgeTTS.prototype)); console.log("Constants:", EdgeTTSNode.OUTPUT_FORMAT);

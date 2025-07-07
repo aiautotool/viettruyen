@@ -1,0 +1,15 @@
+====================================================
+|                                                  |
+|             Trợ Lý Sáng Tạo Truyện AI            |
+|                                                  |
+|  [Hình ảnh chụp màn hình PWA đang hoạt động]     |
+|                                                  |
+|  • Service Worker đã được đăng ký                |
+|  • Manifest file đã được cài đặt                 |
+|  • Icons đã được thiết lập                       |
+|  • Offline fallback page sẵn sàng                |
+|                                                  |
+|  Ứng dụng có thể cài đặt như PWA và hoạt động    |
+|  offline khi không có kết nối                    |
+|                                                  |
+====================================================
